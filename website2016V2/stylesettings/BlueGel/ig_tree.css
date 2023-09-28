@@ -1,0 +1,63 @@
+.igtr_BlueGelControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_BlueGelIsland
+{
+}
+
+
+.igtr_BlueGelNode
+{
+}
+
+
+.igtr_BlueGelParent
+{
+}
+
+
+.igtr_BlueGelLeaf
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:Black;
+}
+
+
+.igtr_BlueGelEdit
+{
+}
+
+
+.igtr_BlueGelRoot
+{
+	font-weight:bold;
+	color:#052684;
+}
+
+
+.igtr_BlueGelHover
+{
+	cursor:hand;
+	color:#052684;
+	text-decoration:underline;
+}
+
+
+.igtr_BlueGelSelected
+{
+	font-weight:bold;
+	color:#052684;
+}
+
+
+.igtr_BlueGelDisabled
+{
+	color:#E1E1E1;
+}
+
+

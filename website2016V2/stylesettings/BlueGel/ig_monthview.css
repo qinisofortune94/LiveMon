@@ -1,0 +1,236 @@
+.igmv_BlueGelControl
+{
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #052684;
+	margin:0px;
+	overflow: auto;
+	position: relative;
+}
+
+
+.igmv_BlueGelCaptionHeader
+{
+	background-color:#CECECE;
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	height: 4;
+	line-height: 20px;
+	text-align:center;
+}
+
+
+.igmv_BlueGelDayHeader
+{
+	background-color:Gainsboro;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-left:solid 1px WhiteSmoke;
+	padding-top:0px;
+	padding-right:2px;
+	height: 3%;
+	line-height: 15px;
+	text-align:right;
+	vertical-align:top;
+}
+
+
+.igmv_BlueGelDay
+{
+	background-color:White;
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	border-left:solid 1px WhiteSmoke;
+	height: 11%;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_BlueGelAppointment
+{
+	background-color:DarkGray;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_BlueGelAllDayEvent
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #000000;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_BlueGelNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	top: 2px;
+	width: 12px;
+	cursor:hand;
+}
+
+
+.igmv_BlueGelWeekNumber
+{
+	background-color:#B6DEED;
+	font-size:10pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	padding-right:1px;
+	width: 20px;
+	text-align:center;
+}
+
+
+.igmv_BlueGelCompressedDay
+{
+	border-left:solid 1px WhiteSmoke;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+tr.igmv_BlueGelCaptionHeader td.igmv_BlueGelWeekNumber
+{
+	background-color:#CECECE;
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	border-width:0px;
+	line-height: 19px;
+	height: 1%;
+}
+
+
+.igmv_BlueGelMonthDayOfWeekHeader
+{
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_hover_f.gif);
+	font-size:8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-bottom:solid 1px Silver;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-top:5px;
+	padding-bottom:5px;
+	height: 1%;
+	line-height: 14px;
+	cursor:default;
+	text-align:center;
+}
+
+
+.igmv_BlueGelOtherMonthDayHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-left:solid 1px Silver;
+	padding-top:0px;
+	padding-right:2px;
+	height: 3%;
+	line-height: 15px;
+	text-align:right;
+	vertical-align:top;
+}
+
+
+.igmv_BlueGelOtherMonthDay
+{
+	background-color:WhiteSmoke;
+	border-left:solid 1px Gainsboro;
+	height: 12%;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_BlueGelOtherCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_BlueGelTodayHeader
+{
+}
+
+
+.igmv_BlueGelToday
+{
+}
+
+
+.igmv_BlueGelSelectedAppointment
+{
+	background-color:#316AC5;
+	color:White;
+}
+
+
+.igmv_BlueGelActiveDayHeader
+{
+}
+
+
+.igmv_BlueGelActiveDay
+{
+	background-color:White;
+	background-image:none;
+}
+
+
+.igmv_NavigationButtonPrev
+{
+	left: 3px;
+}
+
+
+.igmv_BlueGelControl table
+{
+	border-collapse:Collapse;
+}
+
+
+.igmv_NavigationButtonNext
+{
+	right: 3px;
+}
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3dd5432c-b3a5-47de-95fb-b434ab416ede" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52633/SLIPmonInterfaceSVC.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLIPmonInterfaceSVC3.xsd" MetadataType="Schema" ID="ced291ab-b2fb-4038-a701-d8b9a3d27218" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd2" />
+    <MetadataFile FileName="SLIPmonInterfaceSVC2.wsdl" MetadataType="Wsdl" ID="1998e28f-9fcb-4f57-90e6-446798d981f3" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SLIPmonInterfaceSVC21.wsdl" MetadataType="Wsdl" ID="8221b77c-a632-47a1-85b9-16e775419ac9" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?wsdl" />
+    <MetadataFile FileName="SLIPmonInterfaceSVC31.xsd" MetadataType="Schema" ID="c881c844-52e4-454a-bf1d-2da2f9c1beb8" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLIPmonInterfaceSVC1.disco" MetadataType="Disco" ID="48f6d672-93a4-4c62-8280-2bf3ee744f7c" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?disco" />
+    <MetadataFile FileName="SLIPmonInterfaceSVC32.xsd" MetadataType="Schema" ID="0030d31c-940a-47a9-8d8d-2cf1549f53c6" SourceId="1" SourceUrl="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

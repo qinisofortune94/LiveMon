@@ -1,0 +1,89 @@
+.igcal_ElectricBlueControl
+{
+	border:solid 1px #052684;
+	cursor:hand;
+}
+
+
+.igcal_ElectricBlueCalendar
+{
+}
+
+
+.igcal_ElectricBlueDOW
+{
+	font-weight:bold;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #4F7600;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_ElectricBlueDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_ElectricBlueNextPrev
+{
+	background-color:#226DA7;
+}
+
+
+.igcal_ElectricBlueFooter
+{
+	background-color:#F0F0F0;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	padding:3px;
+	text-align:center;
+}
+
+
+.igcal_ElectricBlueHeader
+{
+	background-color:#226DA7;
+	font-weight:bold;
+	font-size:10px;
+	height: 16px;
+	color:White;
+}
+
+
+.igcal_ElectricBlueDropDown
+{
+}
+
+
+.igcal_ElectricBlueWeekendDay
+{
+}
+
+
+.igcal_ElectricBlueOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_ElectricBlueWeekendDayMajor
+{
+}
+
+
+.igcal_ElectricBlueTodayDay
+{
+	border:solid 1px #008BD1;
+}
+
+
+.igcal_ElectricBlueSelectedDay
+{
+	background-color:#008BD1;
+	color:White;
+}
+
+

@@ -1,0 +1,51 @@
+.igpnl_ElectricBlueControl
+{
+	border:solid 1px #052684;
+}
+
+
+.igpnl_ElectricBluePanel
+{
+	background-color:#F8F8F8;
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	cursor:default;
+}
+
+
+.igpnl_ElectricBlueHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_ElectricBlueHeaderCollapsed
+{
+}
+
+
+.igpnl_ElectricBlueHeaderHover
+{
+	background-image: url(images/header_hover.gif);
+}
+
+
+.igpnl_ElectricBlueGroupBoxControl
+{
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	border:solid 1px #052684;
+	cursor:default;
+}
+
+

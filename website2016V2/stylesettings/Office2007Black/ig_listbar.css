@@ -1,0 +1,174 @@
+.iglb_Office2007BlackControl
+{
+	font-size:medium;
+	margin-bottom:0px;
+}
+
+
+.iglb_Office2007BlackControl_Exp
+{
+	font-size:small;
+}
+
+
+.iglb_Office2007BlackButton
+{
+	background-position:top ;
+	background-image: url(images/caption_bg.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_Office2007BlackButtonHover
+{
+	background-image: url(images/day_header_active.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+}
+
+
+.iglb_Office2007BlackButtonSelected
+{
+	background-image: url(images/day_header_active.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+}
+
+
+.iglb_Office2007BlackHeaderCollapsed
+{
+	background-position:top ;
+	background-image: url(images/caption_bg.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_Office2007BlackHeaderExpanded
+{
+	background-position:top ;
+	background-image: url(images/caption_bg.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_Office2007BlackHeaderHover
+{
+	background-image: url(images/day_header_active.jpg);
+	font-size:smaller;
+	padding-top:4px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+}
+
+
+.iglb_Office2007BlackGroup
+{
+}
+
+
+.iglb_Office2007BlackGroup_Exp
+{
+	margin-bottom:0px;
+}
+
+
+.iglb_Office2007BlackItem
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_Office2007BlackItem_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_Office2007BlackItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:BurlyWood;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_Office2007BlackItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:BurlyWood;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_Office2007BlackItemSelected
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+}
+
+
+.iglb_Office2007BlackItemSelected_Exp
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+}
+
+

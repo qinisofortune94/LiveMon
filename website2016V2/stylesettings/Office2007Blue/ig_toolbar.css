@@ -1,0 +1,55 @@
+.igtb_Office2007BlueControl
+{
+	background-color:#E3EFFF;
+	border-color:Transparent;
+}
+
+
+.igtb_Office2007BlueItem
+{
+}
+
+
+.igtb_Office2007BlueButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-right:38px;
+	padding-left:4px;
+}
+
+
+.igtb_Office2007BlueButtonHover
+{
+	background-image: url(images/day_header_active.jpg);
+	border-color:BurlyWood;
+}
+
+
+.igtb_Office2007BlueButtonPressed
+{
+}
+
+
+.igtb_Office2007BlueLabel
+{
+	background-color:Transparent;
+}
+
+
+.igtb_Office2007BlueTextBox
+{
+}
+
+
+.igtb_Office2007BlueSeparator
+{
+	background-color:#E3EFFF;
+}
+
+
+.igtb_Office2007BlueButtonDisabled
+{
+}
+
+

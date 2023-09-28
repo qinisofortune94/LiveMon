@@ -1,0 +1,64 @@
+.igtr_Office2007BlueControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_Office2007BlueIsland
+{
+}
+
+
+.igtr_Office2007BlueNode
+{
+	cursor:hand;
+	color:Black;
+}
+
+
+.igtr_Office2007BlueParent
+{
+	cursor:hand;
+}
+
+
+.igtr_Office2007BlueLeaf
+{
+	cursor:hand;
+}
+
+
+.igtr_Office2007BlueEdit
+{
+}
+
+
+.igtr_Office2007BlueRoot
+{
+	font-weight:bold;
+	color:#5D8CC9;
+}
+
+
+.igtr_Office2007BlueHover
+{
+	color:#5D8CC9;
+	text-decoration:underline;
+}
+
+
+.igtr_Office2007BlueSelected
+{
+	background-color:#E5E5E6;
+	font-weight:bold;
+	color:#5D8CC9;
+}
+
+
+.igtr_Office2007BlueDisabled
+{
+	color:#DADEE8;
+}
+
+

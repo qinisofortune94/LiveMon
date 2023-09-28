@@ -1,0 +1,211 @@
+.igtbl_ElectricBlueControl
+{
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	border:solid 1px #052684;
+}
+
+
+.igtbl_ElectricBluePagerArea
+{
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_ElectricBluePageCurrent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/blank.gif);
+	margin-right:10px;
+	padding:3px 6px 5px 5px;
+}
+
+
+.igtbl_ElectricBluePageLink
+{
+	margin-right:10px;
+	color:#2F3660;
+}
+
+
+.igtbl_ElectricBlueGroupByBox
+{
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	border-width:0px;
+	border-top:solid 1px Gainsboro;
+}
+
+
+.igtbl_ElectricBlueAddNewBox
+{
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	border-width:0px;
+	border-top:solid 1px Gainsboro;
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR TD, THEAD.igtbl_ElectricBlueItem TR TH, TFOOT.igtbl_ElectricBlueItem TR TH, TBODY.igtbl_ElectricBlueItem TR TH
+{
+	background-position:right top ;
+	background-image: url(images/itembg.jpg);
+	border-width:0px;
+	border-top:solid 1px #A6C4E0;
+	border-right:dotted 1px #A6C4E0;
+	height: 30px;
+}
+
+
+.igtbl_ElectricBlueFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/blank.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+	vertical-align:middle;
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR.igtbl_ElectricBlueAlt TD
+{
+	background-image:none;
+	border-top-color:Gainsboro;
+}
+
+
+.igtbl_ElectricBlueEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_ElectricBlueButton
+{
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR TD.igtbl_ElectricBlueFxdCell
+{
+}
+
+
+THEAD.igtbl_ElectricBlueHeader TR TH, TFOOT.igtbl_ElectricBlueHeader TR TH, TBODY.igtbl_ElectricBlueHeader TR TH
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	height: 30px;
+	color:White;
+	text-align:left;
+}
+
+
+TFOOT.igtbl_ElectricBlueFooter TR TH
+{
+	background-color:#F3F8FB;
+	background-image:none;
+}
+
+
+TBODY.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border-right:solid 1px #A4C4EF;
+	border-top-width:1px;
+	border-top-color:#E1E1E1;
+	height: 28px;
+	text-align:left;
+}
+
+
+TBODY.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueExpArea, TFOOT.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueExpArea
+{
+	background-color:#F3F8FB;
+	background-image:none;
+	border-top:solid 1px #F0F0F0;
+	border-right-width:1px;
+}
+
+
+TBODY.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueGrpItem
+{
+}
+
+
+THEAD.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueFxdHeader
+{
+}
+
+
+.igtbl_ElectricBlueGroupBandLabel
+{
+}
+
+
+TFOOT.igtbl_ElectricBlueHeader TR TH.igtbl_ElectricBlueFxdFooter
+{
+}
+
+
+.igtbl_ElectricBlueDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px LightGrey;
+}
+
+
+.igtbl_ElectricBlueDropDownSel
+{
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR.igtbl_ElectricBlueSelected TD, TBODY.igtbl_ElectricBlueItem TR TD.igtbl_ElectricBlueSelected, .igtbl_ElectricBlueSelected
+{
+	background-color:#83CAE8;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	color:White;
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR TD.igtbl_ElectricBlueActiveBorder_TB, .igtbl_ElectricBlueActiveBorder_TB
+{
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR TD.igtbl_ElectricBlueActiveBorder_L, .igtbl_ElectricBlueActiveBorder_L
+{
+}
+
+
+TBODY.igtbl_ElectricBlueItem TR TD.igtbl_ElectricBlueActiveBorder_R, .igtbl_ElectricBlueActiveBorder_R
+{
+}
+
+
+.igtbl_ElectricBlueFilterDropDown
+{
+}
+
+
+.igtbl_ElectricBlueFilterOperandDropDown
+{
+}
+
+

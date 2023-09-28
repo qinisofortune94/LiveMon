@@ -1,0 +1,40 @@
+.igpnl_Office2007BlueControl
+{
+}
+
+
+.igpnl_Office2007BluePanel
+{
+	background-color:#E6EDF7;
+	cursor:default;
+}
+
+
+.igpnl_Office2007BlueHeaderExpanded
+{
+	background-image: url(images/caption_bg.jpg);
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igpnl_Office2007BlueHeaderCollapsed
+{
+}
+
+
+.igpnl_Office2007BlueHeaderHover
+{
+	background-image: url(images/day_header_active.jpg);
+}
+
+
+.igpnl_Office2007BlueGroupBoxControl
+{
+}
+
+

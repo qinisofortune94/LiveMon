@@ -1,0 +1,58 @@
+.igtb_BlueGelControl
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_hover_f.gif);
+	border:solid 1px WhiteSmoke;
+}
+
+
+.igtb_BlueGelItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_BlueGelButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:4px;
+}
+
+
+.igtb_BlueGelButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #B4B4B4;
+}
+
+
+.igtb_BlueGelButtonPressed
+{
+}
+
+
+.igtb_BlueGelLabel
+{
+}
+
+
+.igtb_BlueGelTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_BlueGelSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_BlueGelButtonDisabled
+{
+}
+
+

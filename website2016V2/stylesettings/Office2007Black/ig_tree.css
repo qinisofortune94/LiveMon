@@ -1,0 +1,61 @@
+.igtr_Office2007BlackControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_Office2007BlackIsland
+{
+}
+
+
+.igtr_Office2007BlackNode
+{
+	cursor:hand;
+	color:Black;
+}
+
+
+.igtr_Office2007BlackParent
+{
+}
+
+
+.igtr_Office2007BlackLeaf
+{
+}
+
+
+.igtr_Office2007BlackEdit
+{
+}
+
+
+.igtr_Office2007BlackRoot
+{
+	font-weight:bold;
+	cursor:hand;
+}
+
+
+.igtr_Office2007BlackHover
+{
+	color:Black;
+	text-decoration:underline;
+}
+
+
+.igtr_Office2007BlackSelected
+{
+	background-color:#E5E5E6;
+	color:Black;
+}
+
+
+.igtr_Office2007BlackDisabled
+{
+	color:Gainsboro;
+}
+
+

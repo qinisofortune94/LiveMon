@@ -1,0 +1,196 @@
+.igdv_CaribbeanControl
+{
+	border:solid 1px #001060;
+}
+
+
+.igdv_CaribbeanCaptionHeader
+{
+	background-color:#FAFAFA;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 35px;
+	color:Black;
+	text-align:center;
+}
+
+
+.igdv_CaribbeanDayHeader
+{
+	background-color:#DAEAFF;
+	background-image: url(images/item_alt.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #F4F4F4;
+	border-right-color:#999999;
+	padding-left:2px;
+	height: 20px;
+	white-space: nowrap;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_CaribbeanNonWorkingTimeSlot
+{
+	background-color:#E6EDF7;
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #D5E1F1;
+	height: 20px;
+	cursor:hand;
+}
+
+
+.igdv_CaribbeanWorkingTimeSlot
+{
+	background-color:White;
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #E6EDF7;
+	height: 20px;
+}
+
+
+.igdv_CaribbeanAllDayEventArea
+{
+	background-color:#FAFAFA;
+}
+
+
+.igdv_CaribbeanAllDayEvent
+{
+	background-color:WhiteSmoke;
+	font-size:8pt;
+	font-family: Tahoma,Verdana;
+	border-width:1px;
+	border-color:#6EDF73;
+	padding-left:3px;
+	height: 25px;
+	white-space: nowrap;
+	text-align:center;
+}
+
+
+.igdv_CaribbeanAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	font-family: Tahoma,Verdana;
+	border:solid 1px #999999;
+}
+
+
+.igdv_CaribbeanActivityEdge
+{
+	font-size:1px;
+	height: 4px;
+	cursor:n-resize;
+}
+
+
+.igdv_CaribbeanActivityEdgeLeft
+{
+	font-size:2px;
+	width: 6px;
+	cursor:move;
+}
+
+
+.igdv_CaribbeanTodayHeader
+{
+	background-color:Black;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	border-width:0px;
+	height: 25px;
+	color:#052684;
+}
+
+
+.igdv_CaribbeanTimeSlotLabel
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/panel_body.gif);
+	font-size:16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 1px #E0F3FB;
+	border-bottom:solid 1px #E0F3FB;
+	width: 60px;
+	color:#052684;
+	text-align:center;
+	vertical-align:top;
+}
+
+
+.igdv_CaribbeanTimeSlotLabelMinutes
+{
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.igdv_CaribbeanAllDayEventSelected
+{
+	background-color:#D0D0D0;
+	border-top-width:2px;
+	border-bottom-width:2px;
+}
+
+
+.igdv_CaribbeanAllDayEventAreaSelected
+{
+	background-color:White;
+}
+
+
+.igdv_CaribbeanActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_CaribbeanActivityEdgeBusy
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_CaribbeanActivityEdgeTentative
+{
+	background-color:#90C0FF;
+}
+
+
+.igdv_CaribbeanActivityEdgeOutofOffice
+{
+	background-color:#900090;
+}
+
+
+.igdv_CaribbeanActivityEdgeFree
+{
+	background-color:#F0F0F0;
+}
+
+
+.igdv_CaribbeanNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 17px;
+	vertical-align:middle;
+}
+
+
+.igdv_CaribbeanSelectedAppointment
+{
+	z-index: 9999;
+}
+
+

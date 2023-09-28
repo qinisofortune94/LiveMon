@@ -1,0 +1,236 @@
+﻿<UserControl x:Class="SLServerDisplay.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="Auto" Height="Auto" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+       xmlns:SLServerDisplay="clr-namespace:SLServerDisplay" >
+	<UserControl.Resources>
+		<Storyboard x:Name="GridHide" >
+			<PointAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
+				<SplinePointKeyFrame KeyTime="00:00:01" Value="0.5,0.5"/>
+			</PointAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="-0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:04" Value="-0.2"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="-0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:04" Value="-0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:05" Value="-0.2"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:04">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:05">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="GridShow" >
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:01">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-0.2"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.20000000298023224"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="OldLayoutRoot" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="-0.2"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="-0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="SpinLogo">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Logo" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.2"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.7000000" Value="0.4"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01.3000000" Value="0.75"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:05" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:06" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:08" Value="0.2"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Logo" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.2"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.7000000" Value="0.4"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01.3000000" Value="0.40000000596046448"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:03" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:04" Value="-1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:05" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:06" Value="1"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:08" Value="0.2"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Logo" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:00.7000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:01.3000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:02">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="ComsEvent">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ComsArrow" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="180"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="180"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02.5000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ComsArrow" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02" Value="374"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:02.5000000" Value="374"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ComsService" Storyboard.TargetProperty="(UIElement.Visibility)" Duration="00:00:00.0010000">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ComsArrow" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:00.5000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:02.5000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:04">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="ComsService1" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+    <ScrollViewer x:Name="scroller" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+
+        <Canvas x:Name="SnowCanvas" >
+        <Image Width="1020"  Source="Scene.jpg" Visibility="Collapsed">
+
+        </Image>
+        <TextBlock Canvas.Left="1022" x:Name="TotalCount" Foreground="White" Visibility="Collapsed">Total Snowflakes</TextBlock>
+        <TextBlock Canvas.Left="1022" Canvas.Top="30" Foreground="White" Visibility="Collapsed">Volume</TextBlock>
+        <Slider x:Name="Volume" Value="3" ValueChanged="Slider_ValueChanged" Canvas.Left="1110" Canvas.Top="30"  Minimum="0" Maximum="10" Width="100" Visibility="Collapsed"></Slider>
+        <TextBlock  Canvas.Left="1210" Canvas.Top="30" Foreground="White" x:Name="VolumeValue" Visibility="Collapsed">2</TextBlock>
+        <TextBlock Canvas.Left="1022" Canvas.Top="60" Foreground="White" Visibility="Collapsed">Wind</TextBlock>
+        <Slider x:Name="TheWind" Value="0" ValueChanged="Wind_ValueChanged" Canvas.Left="1110" Canvas.Top="60"  Minimum="-50" Maximum="50" Width="100" Visibility="Collapsed"></Slider>
+        <TextBlock  Canvas.Left="1210" Canvas.Top="60" Foreground="White" x:Name="WindValue" Visibility="Collapsed" >0</TextBlock>
+        <Button Canvas.Left="1022" Canvas.Top="100" Content="Full Screen" Click="Button_Click" Visibility="Collapsed" ></Button>
+        
+        <StackPanel x:Name="PageRoot">
+			    <StackPanel.RenderTransform >
+                    <TransformGroup>
+                        <ScaleTransform x:Name="scaleTransform" ScaleX = "1" ScaleY = "1" />
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+        	<StackPanel x:Name="imageroot" Orientation="Horizontal" Width="Auto" >
+        		<Image x:Name="Logo" Height="28" Width="178" Source="images/smaller_logo.JPG" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed" HorizontalAlignment="Left">
+        			<Image.RenderTransform>
+        				<TransformGroup>
+        					<ScaleTransform/>
+        					<SkewTransform/>
+        					<RotateTransform/>
+        					<TranslateTransform/>
+        				</TransformGroup>
+        			</Image.RenderTransform>
+        		</Image>
+
+                
+                    <!--<ComboBox x:Name="testDropDown" Width="200" Height="30" Canvas.Top="10" Canvas.Left="10" SelectionChanged="DropDown_ItemSelected">
+                        <ComboBoxItem Content="Australia" />
+                        <ComboBoxItem Content="Canada" />
+                        <ComboBoxItem Content="China" />
+                        <ComboBoxItem Content="France" />
+                        <ComboBoxItem Content="Germany" />
+                        <ComboBoxItem Content="India" />
+                        <ComboBoxItem Content="Italy" />
+                        <ComboBoxItem Content="Japan" />
+                        <ComboBoxItem Content="Pakistan" />
+                        <ComboBoxItem Content="Portugal" />
+                        <ComboBoxItem Content="Republic of Ireland" />
+                        <ComboBoxItem Content="Russia" />
+                        <ComboBoxItem Content="Saudi Arabia" />
+                        <ComboBoxItem Content="Spain" />
+                        <ComboBoxItem Content="Sweden" />
+                        <ComboBoxItem Content="United Kingdom" />
+                        <ComboBoxItem Content="USA" />
+                    </ComboBox>-->
+                
+                
+
+                    <Image Height="28" Width="28" x:Name="ComsService" Source="images/My-computer-32x32.png" Visibility="Collapsed" HorizontalAlignment="Left"/>
+        		<Image Source="images/agt_back-32.png" x:Name="ComsArrow" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+        			<Image.RenderTransform>
+        				<TransformGroup>
+        					<ScaleTransform/>
+        					<SkewTransform/>
+        					<RotateTransform/>
+        					<TranslateTransform/>
+        				</TransformGroup>
+        			</Image.RenderTransform>
+        		</Image>
+				<Image Height="28" Width="28" x:Name="ComsService1" Source="images/black-server-32x32.png" Visibility="Collapsed" HorizontalAlignment="Right" Margin="380,0,0,0"/>
+        	</StackPanel>
+        	
+                    
+                    
+        </StackPanel>
+        </Canvas>
+    </ScrollViewer>
+</UserControl>

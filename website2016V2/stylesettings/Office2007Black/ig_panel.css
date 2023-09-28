@@ -1,0 +1,40 @@
+.igpnl_Office2007BlackControl
+{
+}
+
+
+.igpnl_Office2007BlackPanel
+{
+	background-color:#F1F1F1;
+}
+
+
+.igpnl_Office2007BlackHeaderExpanded
+{
+	background-image: url(images/caption_bg.jpg);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_Office2007BlackHeaderCollapsed
+{
+}
+
+
+.igpnl_Office2007BlackHeaderHover
+{
+	background-image: url(images/monthheadercaption_bg_hover.jpg);
+}
+
+
+.igpnl_Office2007BlackGroupBoxControl
+{
+}
+
+

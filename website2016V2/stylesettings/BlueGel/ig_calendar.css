@@ -1,0 +1,92 @@
+.igcal_BlueGelControl
+{
+	border:solid 1px #052684;
+	cursor:hand;
+}
+
+
+.igcal_BlueGelCalendar
+{
+}
+
+
+.igcal_BlueGelDOW
+{
+	font-weight:bold;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding:5px 0px 0px 0px;
+	color:Black;
+}
+
+
+.igcal_BlueGelDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_BlueGelNextPrev
+{
+	background-color:#F0F0F0;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+
+.igcal_BlueGelFooter
+{
+	background-color:WhiteSmoke;
+	padding-top:2px;
+	text-align:center;
+}
+
+
+.igcal_BlueGelHeader
+{
+	background-color:#F0F0F0;
+	font-weight:bold;
+	font-size:10px;
+	height: 16px;
+	color:#052684;
+}
+
+
+.igcal_BlueGelDropDown
+{
+}
+
+
+.igcal_BlueGelWeekendDay
+{
+}
+
+
+.igcal_BlueGelOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_BlueGelWeekendDayMajor
+{
+}
+
+
+.igcal_BlueGelTodayDay
+{
+	border:solid 1px #0526AA;
+}
+
+
+.igcal_BlueGelSelectedDay
+{
+	background-color:#0526AA;
+	background-image:none;
+	color:#FFF4F5;
+}
+
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServicesUri>
+  <Service>http://localhost:52633/SLIPmonInterfaceSVC.svc</Service>
+  <RepeatSound>False</RepeatSound>
+  <ShowDetail>True</ShowDetail>
+  <PageTimer>30</PageTimer>
+  <ServerRefereshTimer>30</ServerRefereshTimer>
+  <ShowPageButton>True</ShowPageButton>
+</ServicesUri>
+
+
+  

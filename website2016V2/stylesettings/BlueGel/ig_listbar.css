@@ -1,0 +1,185 @@
+.iglb_BlueGelControl
+{
+	font-size:medium;
+	border:solid 1px #052684;
+	margin-bottom:0px;
+}
+
+
+.iglb_BlueGelControl_Exp
+{
+	font-size:medium;
+	border:solid 1px #052684;
+}
+
+
+.iglb_BlueGelButton
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelButtonSelected
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelHeaderCollapsed
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	border-width:0px;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelHeaderHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.iglb_BlueGelGroup
+{
+	cursor:default;
+}
+
+
+.iglb_BlueGelGroup_Exp
+{
+	margin-bottom:0px;
+	cursor:default;
+}
+
+
+.iglb_BlueGelItem
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_BlueGelItem_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_BlueGelItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#052684;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_BlueGelItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#052684;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_BlueGelItemSelected
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#052684;
+	text-align:left;
+}
+
+
+.iglb_BlueGelItemSelected_Exp
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#052684;
+	text-align:left;
+}
+
+

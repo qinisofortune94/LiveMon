@@ -1,0 +1,106 @@
+.ig_ElectricBlueControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	cursor:default;
+	color:Black;
+}
+
+
+.ig_ElectricBlueItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_ElectricBlueButton
+{
+	background-color:DimGray;
+	cursor:hand;
+}
+
+
+.ig_ElectricBlueButtonHover
+{
+}
+
+
+.ig_ElectricBlueButtonPressed
+{
+}
+
+
+.ig_ElectricBlueButtonDisabled
+{
+}
+
+
+.ig_ElectricBlueHover
+{
+}
+
+
+.ig_ElectricBlueSelected
+{
+}
+
+
+.ig_ElectricBlueDisabled
+{
+}
+
+
+.ig_ElectricBlueHeader
+{
+}
+
+
+.ig_ElectricBlueFooter
+{
+}
+
+
+.ig_ElectricBlueEditWithButtons
+{
+}
+
+
+.ig_ElectricBlueEdit
+{
+}
+
+
+.ig_ElectricBlueEditInContainer
+{
+}
+
+
+.ig_ElectricBlueAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_ElectricBlueDropDown
+{
+}
+
+
+.ig_ElectricBlueEditSelected
+{
+}
+
+
+Body
+{
+	cursor:default;
+}
+
+

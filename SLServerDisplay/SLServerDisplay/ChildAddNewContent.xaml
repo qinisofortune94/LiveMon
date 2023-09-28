@@ -1,0 +1,54 @@
+﻿<controls:ChildWindow x:Class="SLServerDisplay.ChildAddNewContent"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="444" Height="366"
+           Title="ChildAddNewContent" xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="CancelButton" Content="Cancel" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
+        <Button x:Name="OKButton" Content="OK" Width="75" Height="23" HorizontalAlignment="Right"  Margin="0,12,79,0" Grid.Row="1" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,8,0,0" Name="TextBlock1" Text="Page/Group Name" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,27,0,0" Name="txtDisplayName" VerticalAlignment="Top" Width="330" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="12,75,0,0" Name="cmbType" VerticalAlignment="Top" Width="330">
+            <ComboBoxItem Content="Server Display"  IsSelected="True" IsEnabled="True" Tag="0" />
+            <ComboBoxItem Content="Group Server Display" IsEnabled="True" Tag="1" />
+            <ComboBoxItem Content="Url Document" IsEnabled="False" Tag="3" />
+            <ComboBoxItem Content="Video URL" IsEnabled="False" Tag="4" />
+        </ComboBox>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,56,0,0" Name="TextBlock2" Text="Type" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,196,0,0" Name="TextBlock3" Text="Url /Media /File" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,215,0,0" Name="txtMediaFile" VerticalAlignment="Top" Width="330" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,148,0,0" Name="TextBlock4" Text="Screen" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="133,167,0,0" Name="cmbPanel" VerticalAlignment="Top" Width="105">
+            <ComboBoxItem Content="Panel 1" Tag="1" IsSelected="True"/>
+            <ComboBoxItem Content="Panel 2" Tag="2" />
+            <ComboBoxItem Content="Panel 3" Tag="3" />
+            <ComboBoxItem Content="Panel 4" Tag="4" />
+            <ComboBoxItem Content="Panel 5" Tag="5" />
+            <ComboBoxItem Content="Panel 6" Tag="6" />
+            <ComboBoxItem Content="Panel 7" Tag="7" />
+        </ComboBox>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="133,148,0,0" Name="TextBlock5" Text="Panel" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="244,167,0,0" Name="cmbPanelPos" VerticalAlignment="Top" Width="98">
+            <ComboBoxItem Content="Left" Tag="1" />
+            <ComboBoxItem Content="Right" Tag="2" />
+            <ComboBoxItem Content="Fill" IsSelected="True" Tag="3" />
+        </ComboBox>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="244,148,0,0" Name="TextBlock6" Text="Panel Position" VerticalAlignment="Top" />
+        <toolkit:NumericUpDown Height="22" HorizontalAlignment="Left" Margin="12,261,0,0" Name="txtTimer" VerticalAlignment="Top" Width="330" Maximum="10000000" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,244,0,0" Name="TextBlock7" Text="Timer" VerticalAlignment="Top" />
+        <toolkit:NumericUpDown Height="22" HorizontalAlignment="Left" Margin="13,167,0,0" Maximum="100" Name="txtScreen" VerticalAlignment="Top" Width="114" Value="1" Minimum="1" />
+        <Button Content="..." Height="21" HorizontalAlignment="Left" Margin="339,215,0,0" Name="btnFiles" VerticalAlignment="Top" Width="29" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="11,104,0,0" Name="TextBlock8" Text="Width" VerticalAlignment="Top" />
+        <toolkit:NumericUpDown Height="22" HorizontalAlignment="Left" Margin="12,123,0,0" Maximum="10000" Minimum="0" Name="txtWidth" Value="0" VerticalAlignment="Top" Width="114" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="132,104,0,0" Name="TextBlock9" Text="Height" VerticalAlignment="Top" />
+        <toolkit:NumericUpDown Height="22" HorizontalAlignment="Left" Margin="133,123,0,0" Maximum="10000" Minimum="0" Name="txtHeight" Value="0" VerticalAlignment="Top" Width="114" />
+        <ListBox Height="251" HorizontalAlignment="Left" Margin="8,6,0,0" Name="lstDisplayFiles" VerticalAlignment="Top" Width="385" Visibility="Collapsed" />
+
+    </Grid>
+</controls:ChildWindow>

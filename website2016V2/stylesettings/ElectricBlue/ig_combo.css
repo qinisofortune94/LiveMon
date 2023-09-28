@@ -1,0 +1,120 @@
+.igcmb_ElectricBlueControl
+{
+	border:solid 1px #052684;
+	cursor:default;
+}
+
+
+.igcmb_ElectricBlueEditWithButtons
+{
+	border:solid 1px #E1E1E1;
+	cursor:hand;
+}
+
+
+.igcmb_ElectricBluePagerArea
+{
+}
+
+
+.igcmb_ElectricBluePageCurrent
+{
+}
+
+
+.igcmb_ElectricBluePageLink
+{
+}
+
+
+.igcmb_ElectricBlueItem
+{
+	background-position:right top ;
+	background-image: url(images/itembg.jpg);
+	border-width:0px;
+	border-top:solid 1px #A6C4E0;
+	border-right:dotted 1px #A6C4E0;
+}
+
+
+.igcmb_ElectricBlueAlt
+{
+	background-image: url(images/altbg.jpg);
+	border-top-color:Gainsboro;
+}
+
+
+.igcmb_ElectricBlueHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:White;
+	text-align:left;
+}
+
+
+.igcmb_ElectricBlueFooter
+{
+}
+
+
+.igcmb_ElectricBlueLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#E1E1E1;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+}
+
+
+.igcmb_ElectricBlueSelected
+{
+	background-color:#83CAE8;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igcmb_ElectricBlueEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_ElectricBlueActiveBorderTopBottom
+{
+}
+
+
+.igcmb_ElectricBlueActiveBorderLeft
+{
+}
+
+
+.igcmb_ElectricBlueActiveBorderRight
+{
+}
+
+
+.igcmb_ElectricBlueFilterDropDown
+{
+}
+
+
+.igcmb_ElectricBlueFilterOperandDropDown
+{
+}
+
+

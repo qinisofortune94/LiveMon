@@ -1,0 +1,66 @@
+.igtr_CaribbeanControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_CaribbeanIsland
+{
+}
+
+
+.igtr_CaribbeanNode
+{
+	color:#5D5D5D;
+}
+
+
+.igtr_CaribbeanParent
+{
+}
+
+
+.igtr_CaribbeanLeaf
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:DimGray;
+}
+
+
+.igtr_CaribbeanEdit
+{
+}
+
+
+.igtr_CaribbeanRoot
+{
+	font-weight:bold;
+	margin-bottom:5px;
+	color:#3698D4;
+}
+
+
+.igtr_CaribbeanHover
+{
+	cursor:hand;
+	color:#3698D4;
+	text-decoration:underline;
+}
+
+
+.igtr_CaribbeanSelected
+{
+	font-weight:bold;
+	color:#3698D4;
+}
+
+
+.igtr_CaribbeanDisabled
+{
+	color:#E1E1E1;
+	text-decoration:line-through;
+}
+
+

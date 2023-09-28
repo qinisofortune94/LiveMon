@@ -1,0 +1,191 @@
+.igdv_Office2007BlueControl
+{
+}
+
+
+.igdv_Office2007BlueCaptionHeader
+{
+	background-color:#BFDAFF;
+	background-repeat:repeat-x;
+	background-image: url(images/caption_bg.jpg);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom:5px;
+	line-height: 16px;
+	height: 17px;
+	color:Black;
+	text-align:center;
+}
+
+
+.igdv_Office2007BlueDayHeader
+{
+	background-color:#DAEAFF;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #F4F4F4;
+	border-right-color:#999999;
+	padding-left:2px;
+	height: 20px;
+	white-space: nowrap;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_Office2007BlueNonWorkingTimeSlot
+{
+	background-color:#E6EDF7;
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #D5E1F1;
+	height: 20px;
+}
+
+
+.igdv_Office2007BlueWorkingTimeSlot
+{
+	background-color:White;
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #E6EDF7;
+	height: 20px;
+}
+
+
+.igdv_Office2007BlueAllDayEventArea
+{
+	background-color:#FAFAFA;
+}
+
+
+.igdv_Office2007BlueAllDayEvent
+{
+	background-color:WhiteSmoke;
+	font-size:8pt;
+	font-family: Tahoma,Verdana;
+	border-width:1px;
+	border-color:#6EDF73;
+	padding-left:3px;
+	height: 25px;
+	white-space: nowrap;
+	text-align:center;
+}
+
+
+.igdv_Office2007BlueAppointment
+{
+	background-color:#F5B84D;
+	font-size:8pt;
+	font-family: Tahoma,Verdana;
+	border:solid 1px #999999;
+}
+
+
+.igdv_Office2007BlueActivityEdge
+{
+	font-size:1px;
+	height: 4px;
+	cursor:n-resize;
+}
+
+
+.igdv_Office2007BlueActivityEdgeLeft
+{
+	font-size:2px;
+	width: 6px;
+	cursor:move;
+}
+
+
+.igdv_Office2007BlueTodayHeader
+{
+	background-color:Black;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header.jpg);
+	border-width:0px;
+	height: 17px;
+	color:Black;
+}
+
+
+.igdv_Office2007BlueTimeSlotLabel
+{
+	background-color:#E3EFFF;
+	font-size:16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 1px #6593CF;
+	border-bottom:solid 1px #6593CF;
+	width: 60px;
+	text-align:center;
+	vertical-align:top;
+}
+
+
+.igdv_Office2007BlueTimeSlotLabelMinutes
+{
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.igdv_Office2007BlueAllDayEventSelected
+{
+	background-color:#D0D0D0;
+	border-top-width:2px;
+	border-bottom-width:2px;
+}
+
+
+.igdv_Office2007BlueAllDayEventAreaSelected
+{
+	background-color:White;
+}
+
+
+.igdv_Office2007BlueActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_Office2007BlueActivityEdgeBusy
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_Office2007BlueActivityEdgeTentative
+{
+	background-color:#90C0FF;
+}
+
+
+.igdv_Office2007BlueActivityEdgeOutofOffice
+{
+	background-color:#900090;
+}
+
+
+.igdv_Office2007BlueActivityEdgeFree
+{
+	background-color:#F0F0F0;
+}
+
+
+.igdv_Office2007BlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 30px;
+	vertical-align:middle;
+}
+
+
+.igdv_Office2007BlueSelectedAppointment
+{
+	background-color:#2A00FE;
+	z-index: 9999;
+}
+
+

@@ -1,0 +1,114 @@
+.igcmb_BlueGelControl
+{
+	border:solid 1px #052684;
+}
+
+
+.igcmb_BlueGelEditWithButtons
+{
+	border:solid 1px #052684;
+	cursor:hand;
+}
+
+
+.igcmb_BlueGelPagerArea
+{
+}
+
+
+.igcmb_BlueGelPageCurrent
+{
+}
+
+
+.igcmb_BlueGelPageLink
+{
+}
+
+
+.igcmb_BlueGelItem
+{
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_hover_f.gif);
+	border-top:solid 1px White;
+}
+
+
+.igcmb_BlueGelAlt
+{
+	background-position:top ;
+	background-image:none;
+	border-top:solid 1px Gainsboro;
+}
+
+
+.igcmb_BlueGelHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+.igcmb_BlueGelFooter
+{
+}
+
+
+.igcmb_BlueGelLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:White;
+}
+
+
+.igcmb_BlueGelSelected
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+}
+
+
+.igcmb_BlueGelEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px #8DC2D6;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_BlueGelActiveBorderTopBottom
+{
+}
+
+
+.igcmb_BlueGelActiveBorderLeft
+{
+}
+
+
+.igcmb_BlueGelActiveBorderRight
+{
+}
+
+
+.igcmb_BlueGelFilterDropDown
+{
+}
+
+
+.igcmb_BlueGelFilterOperandDropDown
+{
+}
+
+

@@ -1,0 +1,126 @@
+.igcmb_CaribbeanControl
+{
+	border:solid 1px #001060;
+}
+
+
+.igcmb_CaribbeanEditWithButtons
+{
+	border:solid 1px #052684;
+	cursor:hand;
+}
+
+
+.igcmb_CaribbeanPagerArea
+{
+	background-color:#E0F3FB;
+	background-image: url(images/item_alt.gif);
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igcmb_CaribbeanPageCurrent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/submit_down.gif);
+	font-weight:bold;
+	margin-right:15px;
+	padding:2px 6px 5px 6px;
+	width: 20px;
+	color:White;
+}
+
+
+.igcmb_CaribbeanPageLink
+{
+	font-weight:bold;
+	margin-right:15px;
+	color:DarkBlue;
+}
+
+
+.igcmb_CaribbeanItem
+{
+	background-position:bottom ;
+	background-image: url(images/item_bg.gif);
+	border-top:solid 1px Transparent;
+	padding-left:2px;
+}
+
+
+.igcmb_CaribbeanAlt
+{
+}
+
+
+.igcmb_CaribbeanHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:White;
+	text-align:left;
+}
+
+
+.igcmb_CaribbeanFooter
+{
+}
+
+
+.igcmb_CaribbeanLabel
+{
+	background-color:#EBF4F8;
+	background-image:none;
+	border:solid 1px LightGrey;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	height: 20px;
+}
+
+
+.igcmb_CaribbeanSelected
+{
+	background-position:center ;
+	background-image: url(images/header_gridhover.gif);
+	font-weight:bold;
+	height: 0px !important;
+	color:#001060;
+}
+
+
+.igcmb_CaribbeanEditSelected
+{
+}
+
+
+.igcmb_CaribbeanActiveBorderTopBottom
+{
+}
+
+
+.igcmb_CaribbeanActiveBorderLeft
+{
+}
+
+
+.igcmb_CaribbeanActiveBorderRight
+{
+}
+
+
+.igcmb_CaribbeanFilterDropDown
+{
+}
+
+
+.igcmb_CaribbeanFilterOperandDropDown
+{
+}
+
+

@@ -1,0 +1,26 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_SLIPmonInterfaceSVC" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="BasicHttpBinding_SLIPmonInterfaceSVC1" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:2104/website/SLIPmonInterfaceSVC.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_SLIPmonInterfaceSVC"
+                contract="SLIPmonInterfaceSVC" name="BasicHttpBinding_SLIPmonInterfaceSVC" />
+            <endpoint address="../SLIPmonInterfaceSVC.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_SLIPmonInterfaceSVC1"
+                contract="LiveMonitoring.SLIPmonInterfaceSVC" name="BasicHttpBinding_SLIPmonInterfaceSVC1" />
+        </client>
+    </system.serviceModel>
+  
+
+</configuration>

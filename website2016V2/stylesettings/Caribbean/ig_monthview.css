@@ -1,0 +1,268 @@
+.igmv_CaribbeanControl
+{
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #001060;
+	margin:0px;
+	overflow: auto;
+	position: relative;
+	height: 100%;
+}
+
+
+.igmv_CaribbeanCaptionHeader
+{
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 7%;
+	color:White;
+	text-align:center;
+}
+
+
+.igmv_CaribbeanDayHeader
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	line-height: 16px;
+	color:#052684;
+	text-align:right;
+}
+
+
+.igmv_CaribbeanDay
+{
+	background-color:#9BBA00;
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border-top:solid 1px White;
+	border-right:solid 1px White;
+	border-bottom:solid 1px #E1E1E1;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmv_CaribbeanAppointment
+{
+	background-color:DarkGray;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_CaribbeanAllDayEvent
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #000000;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_CaribbeanNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:5px 0px 0px 0px;
+	position: absolute;
+	top: 2px;
+	width: 12px;
+	cursor:hand;
+	vertical-align:middle;
+}
+
+
+.igmv_CaribbeanWeekNumber
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/panel_body.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 1px #F0F0F0;
+	border-top-width:0px;
+	border-top-style:outset;
+	border-bottom-width:0px;
+	border-bottom-style:outset;
+	width: 20px;
+	color:#052684;
+	text-align:center;
+}
+
+
+.igmv_CaribbeanCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+tr.igmv_CaribbeanCaptionHeader td.igmv_CaribbeanWeekNumber
+{
+	background-color:Transparent;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	border-width:0px;
+	line-height: 19px;
+	height: 1%;
+}
+
+
+.igmv_CaribbeanMonthDayOfWeekHeader
+{
+	background-image: url(images/item_alt.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:1px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#052684;
+	border-left-width:0px;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	height: 5%;
+	cursor:default;
+	color:#052684;
+	text-align:center;
+}
+
+
+.igmv_CaribbeanOtherMonthDayHeader
+{
+	background-color:#DAEAFF;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	line-height: 16px;
+	color:#A5A5A5;
+	text-align:right;
+}
+
+
+.igmv_CaribbeanOtherMonthDay
+{
+	background-color:#F6F6F6;
+	border-top:solid 1px White;
+	border-right:solid 1px White;
+	cursor:hand;
+	color:#B4B4B4;
+}
+
+
+.igmv_CaribbeanOtherCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_CaribbeanTodayHeader
+{
+	background-repeat:repeat-x;
+	background-position:center bottom ;
+	background-image: url(images/panel_body.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 1px #FFFFFF;
+	border-top-color:White;
+	padding:0px 2px 0px 0px;
+	line-height: 16px;
+	color:White;
+	text-align:right;
+}
+
+
+.igmv_CaribbeanToday
+{
+}
+
+
+.igmv_CaribbeanSelectedAppointment
+{
+	background-color:#316AC5;
+	color:White;
+}
+
+
+.igmv_CaribbeanActiveDayHeader
+{
+	background-repeat:repeat-x;
+	background-position:center bottom ;
+	background-image: url(images/panel_body.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 1px #FFFFFF;
+	border-top-color:White;
+	padding:0px 2px 0px 0px;
+	line-height: 16px;
+	color:White;
+	text-align:right;
+}
+
+
+.igmv_CaribbeanActiveDay
+{
+	background-color:White;
+	background-image: url(images/bg_diagonal.gif);
+	border:solid 0px Transparent;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	cursor:hand;
+}
+
+
+.igmv_NavigationButtonNext
+{
+	right: 3px;
+}
+
+
+.igmv_CaribbeanControl table
+{
+	border-collapse:Collapse;
+	height: 700px;
+}
+
+
+.igmv_NavigationButtonPrev
+{
+	left: 3px;
+}
+
+

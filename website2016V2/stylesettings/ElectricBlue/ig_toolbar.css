@@ -1,0 +1,53 @@
+.igtb_ElectricBlueControl
+{
+	background-color:#F0F0F0;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+}
+
+
+.igtb_ElectricBlueItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_ElectricBlueButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:4px;
+}
+
+
+.igtb_ElectricBlueButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #FFFFFF;
+	color:White;
+}
+
+
+.igtb_ElectricBlueButtonPressed
+{
+}
+
+
+.igtb_ElectricBlueLabel
+{
+}
+
+
+.igtb_ElectricBlueTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_ElectricBlueSeparator
+{
+	background-color:Transparent;
+}
+
+

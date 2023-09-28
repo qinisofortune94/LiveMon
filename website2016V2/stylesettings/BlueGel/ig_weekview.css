@@ -1,0 +1,134 @@
+.igwv_BlueGelControl
+{
+	border-width:0px;
+	margin-top:2px;
+}
+
+
+.igwv_BlueGelCaptionHeader
+{
+	background-color:#CECECE;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top:solid 1px #052684;
+	border-right:solid 1px #052684;
+	border-bottom:solid 0px #052684;
+	border-left:solid 1px #052684;
+	padding-top:3px;
+	padding-bottom:2px;
+	line-height: 16px;
+	height: 17px;
+	color:#052684;
+	text-align:center;
+}
+
+
+.igwv_BlueGelDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	height: 18px;
+	cursor:default;
+	text-align:right;
+}
+
+
+.igwv_BlueGelDay
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom:0px;
+	overflow-x: hidden;
+	cursor:hand;
+}
+
+
+.igwv_BlueGelAppointment
+{
+	margin:0px 1px 0px 1px;
+	padding:2px;
+	line-height: 150%;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+
+.igwv_BlueGelAllDayEvent
+{
+	background-color:#FAFAFA;
+	border:solid 1px Silver;
+}
+
+
+.igwv_BlueGelNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 17px;
+	cursor:hand;
+	vertical-align:middle;
+}
+
+
+.igwv_BlueGelDayArea
+{
+	border:solid 1px #052684;
+}
+
+
+.igwv_BlueGelTodayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:top center ;
+	background-image: url(images/header_orange.gif);
+	font-weight:bold;
+	color:#052684;
+}
+
+
+.igwv_BlueGelToday
+{
+}
+
+
+.igwv_BlueGelSelectedAppointment
+{
+	background-color:#DAEAFF;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding:1px;
+	cursor:pointer;
+	color:#052684;
+}
+
+
+.igwv_BlueGelActiveDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_silver.gif);
+	color:#052684;
+}
+
+
+.igwv_BlueGelActiveDay
+{
+	background-color:White;
+	background-image:none;
+}
+
+

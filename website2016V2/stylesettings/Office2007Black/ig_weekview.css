@@ -1,0 +1,124 @@
+.igwv_Office2007BlackControl
+{
+	border-width:0px;
+	margin-top:2px;
+}
+
+
+.igwv_Office2007BlackCaptionHeader
+{
+	background-color:#DBDEE1;
+	background-repeat:repeat-x;
+	background-image: url(images/black_header.jpg);
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top:solid 1px #D2D2D2;
+	border-right:solid 1px #D2D2D2;
+	border-bottom:solid 0px #D2D2D2;
+	border-left:solid 1px #D2D2D2;
+	padding-top:3px;
+	padding-bottom:2px;
+	line-height: 16px;
+	height: 17px;
+	color:#1E1E1E;
+	text-align:center;
+}
+
+
+.igwv_Office2007BlackDayHeader
+{
+	background-image: url(images/day_header.jpg);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	height: 18px;
+	cursor:default;
+	text-align:right;
+}
+
+
+.igwv_Office2007BlackDay
+{
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+	cursor:hand;
+}
+
+
+.igwv_Office2007BlackAppointment
+{
+	margin:0px 1px 0px 1px;
+	padding:2px;
+	line-height: 150%;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+
+.igwv_Office2007BlackAllDayEvent
+{
+	background-color:#FAFAFA;
+	border:solid 1px Silver;
+}
+
+
+.igwv_Office2007BlackNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 25px;
+	cursor:hand;
+	vertical-align:middle;
+}
+
+
+.igwv_Office2007BlackDayArea
+{
+	border:solid 1px #D2D2D2;
+}
+
+
+.igwv_Office2007BlackTodayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/active_day_header.jpg);
+	color:Black;
+}
+
+
+.igwv_Office2007BlackToday
+{
+}
+
+
+.igwv_Office2007BlackSelectedAppointment
+{
+	background-color:#DAEAFF;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding:1px;
+	cursor:pointer;
+	color:Black;
+}
+
+
+.igwv_Office2007BlackActiveDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header_active.jpg);
+	color:Black;
+}
+
+
+.igwv_Office2007BlackActiveDay
+{
+	background-color:WhiteSmoke;
+	background-repeat:repeat-x;
+}
+
+

@@ -1,0 +1,105 @@
+.ig_BlueGelControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	cursor:default;
+	color:Black;
+}
+
+
+.ig_BlueGelItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_BlueGelButton
+{
+	cursor:hand;
+}
+
+
+.ig_BlueGelButtonHover
+{
+}
+
+
+.ig_BlueGelButtonPressed
+{
+}
+
+
+.ig_BlueGelButtonDisabled
+{
+}
+
+
+.ig_BlueGelHover
+{
+}
+
+
+.ig_BlueGelSelected
+{
+}
+
+
+.ig_BlueGelDisabled
+{
+}
+
+
+.ig_BlueGelHeader
+{
+}
+
+
+.ig_BlueGelFooter
+{
+}
+
+
+.ig_BlueGelEditWithButtons
+{
+}
+
+
+.ig_BlueGelEdit
+{
+}
+
+
+.ig_BlueGelEditInContainer
+{
+}
+
+
+.ig_BlueGelAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_BlueGelDropDown
+{
+}
+
+
+.ig_BlueGelEditSelected
+{
+}
+
+
+Body
+{
+	cursor:default;
+}
+
+

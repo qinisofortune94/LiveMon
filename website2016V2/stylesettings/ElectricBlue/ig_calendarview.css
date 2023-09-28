@@ -1,0 +1,104 @@
+.igcv_ElectricBlueControl
+{
+	border:solid 1px #052684;
+}
+
+
+.igcv_ElectricBlueCaptionHeader
+{
+	background-color:#226DA7;
+	font-weight:bold;
+	font-size:8pt;
+	padding:3px;
+	width: 100%;
+	white-space: nowrap;
+	color:White;
+	text-align:center;
+}
+
+
+.igcv_ElectricBlueDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:10px;
+	border-bottom:solid 1px #4F7600;
+	height: 16px;
+	color:Black;
+}
+
+
+.igcv_ElectricBlueDay
+{
+	background-color:White;
+	font-size:11px;
+	border-width:0px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcv_ElectricBlueFooter
+{
+	background-color:#EEEEEE;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	font-size:8pt;
+	padding:3px;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:left;
+}
+
+
+.igcv_ElectricBlueDropDown
+{
+	font-size:8pt;
+}
+
+
+.igcv_ElectricBlueOtherMonthDay
+{
+	background-color:White;
+	color:#B3B3B3;
+}
+
+
+.igcv_ElectricBlueWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+
+.igcv_ElectricBlueNavigationButton
+{
+	background-color:#226DA7;
+	background-image: url(images/bg_lines.png);
+	padding-right:3px;
+	padding-left:3px;
+	cursor:pointer;
+}
+
+
+.igcv_ElectricBlueTodayDay
+{
+	border:solid 1px #216CA3;
+}
+
+
+.igcv_ElectricBlueActivityDay
+{
+	font-weight:bold;
+}
+
+
+.igcv_ElectricBlueActiveDay
+{
+	background-color:#216CA3;
+	background-image:none;
+	border-style:solid;
+	border-color:#969696;
+	color:White;
+}
+
+

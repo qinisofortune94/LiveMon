@@ -1,0 +1,58 @@
+.igtxt_CaribbeanEditWithButtons
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	font-family: Verdana;
+	border:solid 1px #052684;
+}
+
+
+.igtxt_CaribbeanEdit
+{
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	font-family: Verdana;
+	border:solid 1px #052684;
+}
+
+
+.igtxt_CaribbeanEditInContainer
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+.igtxt_CaribbeanButton
+{
+	background-color:#C1D8E6;
+	font-size:1px;
+	border:solid 1px #EAF2FB;
+}
+
+
+.igtxt_CaribbeanButtonHover
+{
+	background-color:#B4B4B4;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_CaribbeanButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_CaribbeanButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

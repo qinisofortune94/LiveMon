@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="liveMon" Class="IPMnLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=rogerlt7;Initial Catalog=liveMon;User ID=LivemonDev" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="IPMonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AlertContactLink" Member="AlertContactLinks">
+    <Type Name="AlertContactLink">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AlertID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContactID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PeopleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="SurName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="UserLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cell" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Pager" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="LastLogon" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastPassword" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlertHistory" Member="AlertHistoryDBs">
+    <Type Name="AlertHistoryDB">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AlertType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertMess" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AlertDest" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Sent" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlertContacts" Member="AlertContacts">
+    <Type Name="AlertContact">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AlertID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PeopleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ContactName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OutputParam" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OutputParam1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OutputParam2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OutputParam3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OutputParam4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OutputParam5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OutputParam6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="OutputParam7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ResendDelay" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SingleSend" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlertContactSchedule" Member="AlertContactSchedules">
+    <Type Name="AlertContactSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContactID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Day" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Alerts" Member="Alerts">
+    <Type Name="Alert">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IncludeImage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CameraID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Camera1Delay" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CameraID2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Camera2Delay" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SensorValueID1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SensorValueID2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SensorValueID3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SensorValueID4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SendNormal" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlertSchedule" Member="AlertSchedules">
+    <Type Name="AlertSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AlertID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Day" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BiometricUsers" Member="BiometricUsers">
+    <Type Name="BiometricUser">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DeviceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EnrollNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Privilege" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EnabledRenamed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CameraSensorLink" Member="CameraSensorLinks">
+    <Type Name="CameraSensorLink">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CameraID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SensorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLevelView" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLevelExecute" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DataHistory" Member="DataHistories">
+    <Type Name="DataHistory">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SensorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Field" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TabularRowNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Value" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OtherData" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DisplayGroups" Member="DisplayGroups">
+    <Type Name="DisplayGroup">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DisplayID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GroupName" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayImage" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DisplayWidth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayHeight" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Screen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PanelNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PanelPos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExtraData1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraData2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraValue1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ExtraValue2" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ModelDeviceLocation" Member="ModelDeviceLocations">
+    <Type Name="ModelDeviceLocation">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ModelID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeviceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SensorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SizeX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SizeY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Models" Member="Models">
+    <Type Name="Model">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LayerName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Order]" Member="Order" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SizeX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sizey" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OtherDevices" Member="OtherDevices">
+    <Type Name="OtherDevice">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SerialPort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SerialSettings" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastReadDT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ExtraData" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ExtraData1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ExtraData2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ExtraData3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExtraData4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExtraData5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapLayer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ImageNormal" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageError" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageNoResponse" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Caption" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sensorstest" Member="Sensorstests">
+    <Type Name="Sensorstest">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IPDeviceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Module" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Register" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="NVarChar(450)" CanBeNull="true" />
+      <Column Name="LastValue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="LastValueDt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Caption" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MapLayer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ImageNormal" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageError" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageNoResponse" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MinValue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="MaxValue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Multiplier" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Divisor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ScanRate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OutputType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiteCritical" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ExtraData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraData1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraData2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraData3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraValue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ExtraValue1" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cameras" Member="Cameras">
+    <Type Name="Camera">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IPAdress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[User]" Member="User" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MapLayer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MapPositionY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ImageNormal" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageError" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageNoResponse" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DTLastRead" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Caption" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MotionSensitivity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Field1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field3" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field4" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field5" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field6" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field7" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field8" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field9" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Field10" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="PreEventTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PostEventTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Events" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EventRecording" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ItemDetection" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DisplayNames" Member="DisplayNames">
+    <Type Name="DisplayName">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DisplayName" Member="DisplayName1" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExtraData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraValue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DefaultOrderByColumn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

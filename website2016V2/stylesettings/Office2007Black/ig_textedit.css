@@ -1,0 +1,54 @@
+.igtxt_Office2007BlackEditWithButtons
+{
+	font-family: Verdana;
+	border:solid 1px #898989;
+}
+
+
+.igtxt_Office2007BlackEdit
+{
+	background-color:#E8E8E8;
+	font-family: Verdana;
+	border:solid 1px #898989;
+}
+
+
+.igtxt_Office2007BlackEditInContainer
+{
+	background-color:#E8E8E8;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+.igtxt_Office2007BlackButton
+{
+	background-color:#E8E8E8;
+	font-size:1px;
+	border:solid 1px #E8E8E8;
+}
+
+
+.igtxt_Office2007BlackButtonHover
+{
+	background-color:#FFDA7A;
+	border:solid 1px #898989;
+}
+
+
+.igtxt_Office2007BlackButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #898989;
+}
+
+
+.igtxt_Office2007BlackButtonDisabled
+{
+	background-color: LightGrey;
+	border:solid 1px White;
+}
+
+

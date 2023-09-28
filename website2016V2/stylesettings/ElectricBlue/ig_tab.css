@@ -1,0 +1,406 @@
+.igtab_ElectricBlueControl
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-image: url(images/bg_top.gif);
+	border:solid 1px #D2D2D2;
+}
+
+
+.igtab_ElectricBlueControl_Outer
+{
+	border-width:1px;
+	border-color:Transparent;
+	border-left-style:solid;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Top
+{
+	background-color:#F0F0F0;
+	background-image: url(images/tab_top_normal_f.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	padding:2px 5px 2px 5px;
+	text-align:center;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Top_Rounded
+{
+	background-color:Transparent !important;
+	background-image: url(images/tab_top_normal.gif);
+	font-size:10pt;
+	font-family: Tahoma;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#D2D2D2;
+	padding:2px 10px 1px 10px;
+	height: 100%;
+	cursor:pointer;
+	color:#1C4B82;
+	text-align:center;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Top_Edge
+{
+	background-position:right top ;
+	font-size:2px;
+	border-top-width:0px;
+	padding:0px;
+}
+
+
+.igtab_ElectricBlueButton
+{
+}
+
+
+.igtab_ElectricBlueDefaultTab_Bottom
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_normal_f.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	padding:2px 5px 2px 5px;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Bottom_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left bottom ;
+	background-image: url(images/tab_bottom_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #3698D4;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	padding:3px 5px 4px 7px;
+	height: 100%;
+	cursor:pointer;
+	color:#1C4B82;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Bottom_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:0px;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Left
+{
+	background-color:#F0F0F0;
+	background-image: url(images/tab_left_normal_f.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	padding:5px 2px 5px 2px;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Left_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left top ;
+	background-image: url(images/tab_left_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border-style:solid;
+	border-width:1px;
+	border-top-width:0px;
+	border-right-color:#001060;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	margin-top:0px;
+	margin-right:5px;
+	margin-bottom:0px;
+	padding:8px 0px 3px 4px;
+	cursor:pointer;
+	color:#1C4B82;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Left_Edge
+{
+	background-position:left bottom ;
+	font-size:2px;
+	padding:3px;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Right
+{
+	background-color:#F0F0F0;
+	background-position:right ;
+	background-image: url(images/tab_right_normal_f.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	padding:5px 2px 5px 2px;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Right_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:right top ;
+	background-image: url(images/tab_right_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border-style:solid;
+	border-width:1px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-color:#001060;
+	padding:8px 4px 3px 0px;
+	cursor:pointer;
+	color:#1C4B82;
+}
+
+
+.igtab_ElectricBlueDefaultTab_Right_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:1px;
+}
+
+
+.igtab_ElectricBlueButtonHover
+{
+}
+
+
+.igtab_ElectricBlueButtonPressed
+{
+}
+
+
+.igtab_ElectricBlueButtonDisabled
+{
+}
+
+
+.igtab_ElectricBlueHoverTab_Top
+{
+	background-color:#71B8FF;
+	background-image: url(images/tab_top_hover_f.gif);
+}
+
+
+.igtab_ElectricBlueSeparator_Top
+{
+	border-bottom:solid 1px #D2D2D2;
+	border-top-width:1px;
+	border-right-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ElectricBlueHoverTab_Top_Rounded
+{
+	background-image: url(images/tab_top_hover.gif);
+	border-bottom:solid 1px #D2D2D2;
+	color:Black;
+}
+
+
+.igtab_ElectricBlueHoverTab_Bottom
+{
+	background-color:#71B8FF;
+	background-image: url(images/tab_bottom_hover_f.gif);
+}
+
+
+.igtab_ElectricBlueSeparator_Bottom
+{
+	border-top:solid 1px #D2D2D2;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ElectricBlueHoverTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ElectricBlueHoverTab_Left
+{
+	background-color:#71B8FF;
+	background-image: url(images/tab_left_hover_f.gif);
+}
+
+
+.igtab_ElectricBlueSeparator_Left
+{
+	border-right:solid 1px #D2D2D2;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ElectricBlueHoverTab_Left_Rounded
+{
+	background-image: url(images/tab_left_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ElectricBlueHoverTab_Right
+{
+	background-color:#71B8FF;
+	background-image: url(images/tab_left_right_f.gif);
+}
+
+
+.igtab_ElectricBlueSeparator_Right
+{
+	border-left:solid 1px #D2D2D2;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+
+
+.igtab_ElectricBlueHoverTab_Right_Rounded
+{
+	background-image: url(images/tab_right_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Top
+{
+	background-color:#1C4B82;
+	background-image: url(images/tab_top_f.gif);
+	border-bottom-color:#535353;
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Top_Rounded
+{
+	background-image: url(images/tab_top.gif);
+	border-width:0px;
+	border-bottom:solid 1px #1C4B82;
+	cursor:default;
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Bottom
+{
+	background-color:#1C4B82;
+	background-image: url(images/tab_bottom_f.gif);
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom.gif);
+	cursor:default;
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Left
+{
+	background-color:#1C4B82;
+	background-image: url(images/tab_left_f.gif);
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Left_Rounded
+{
+	background-image: url(images/tab_left.gif);
+	border-color:#535353;
+	cursor:default;
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Right
+{
+	background-color:#1C4B82;
+	background-image: url(images/tab_right_f.gif);
+	color:White;
+}
+
+
+.igtab_ElectricBlueSelectedTab_Right_Rounded
+{
+	background-image: url(images/tab_right.gif);
+	cursor:default;
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Top
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Top_Rounded
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Bottom
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Bottom_Rounded
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Left
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Left_Rounded
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Right
+{
+	color:White;
+}
+
+
+.igtab_ElectricBlueDisabledTab_Right_Rounded
+{
+	color:White;
+}
+
+

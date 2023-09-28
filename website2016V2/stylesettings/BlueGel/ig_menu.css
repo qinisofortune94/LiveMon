@@ -1,0 +1,96 @@
+.igmn_BlueGelControl
+{
+	background-color:WhiteSmoke;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_hover_f.gif);
+	border:solid 1px WhiteSmoke;
+}
+
+
+.igmn_BlueGelIsland
+{
+	background-color:#E0EEF5;
+	background-image:none;
+	border:solid 1px LightGrey;
+}
+
+
+.igmn_BlueGelItem
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	height: 20px;
+	cursor:hand;
+}
+
+
+.igmn_BlueGelLeaf
+{
+}
+
+
+.igmn_BlueGelParent
+{
+}
+
+
+.igmn_BlueGelTopLevelLeaf
+{
+}
+
+
+.igmn_BlueGelTopLevelParent
+{
+}
+
+
+.igmn_BlueGelHeader
+{
+}
+
+
+.igmn_BlueGelSeparator
+{
+	background-color:Yellow;
+	color:Black;
+}
+
+
+.igmn_BlueGelHover
+{
+	background-color:Transparent;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #A5A5A5;
+	padding:0px;
+	height: 20px;
+	color:#052684;
+}
+
+
+.igmn_BlueGelTopLevelHover
+{
+	background-color:Transparent;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #A5A5A5;
+	padding:0px;
+	height: 20px;
+	color:#052684;
+}
+
+
+.igmn_BlueGelTopSelected
+{
+}
+
+
+.igmn_BlueGelDisabled
+{
+	font-size:xx-small;
+	font-family: Verdana;
+	color:#C3C3C3;
+}
+
+

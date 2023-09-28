@@ -1,0 +1,59 @@
+.igtb_CaribbeanControl
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border-color: LightGrey;
+}
+
+
+.igtb_CaribbeanItem
+{
+	background-color:White;
+}
+
+
+.igtb_CaribbeanButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:4px;
+}
+
+
+.igtb_CaribbeanButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	border:solid 1px LightGrey;
+	color:White;
+}
+
+
+.igtb_CaribbeanButtonPressed
+{
+}
+
+
+.igtb_CaribbeanLabel
+{
+	background-color:Transparent;
+}
+
+
+.igtb_CaribbeanTextBox
+{
+}
+
+
+.igtb_CaribbeanSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_CaribbeanButtonDisabled
+{
+}
+
+

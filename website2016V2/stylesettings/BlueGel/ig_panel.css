@@ -1,0 +1,47 @@
+.igpnl_BlueGelControl
+{
+	border:solid 1px #052684;
+}
+
+
+.igpnl_BlueGelPanel
+{
+	background-color:#F8F8F8;
+	cursor:default;
+}
+
+
+.igpnl_BlueGelHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:hand;
+	color:#052684;
+}
+
+
+.igpnl_BlueGelHeaderCollapsed
+{
+}
+
+
+.igpnl_BlueGelHeaderHover
+{
+	background-image: url(images/header_hover.gif);
+}
+
+
+.igpnl_BlueGelGroupBoxControl
+{
+	border:solid 1px #052684;
+	cursor:default;
+}
+
+

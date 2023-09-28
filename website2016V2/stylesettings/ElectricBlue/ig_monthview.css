@@ -1,0 +1,240 @@
+.igmv_ElectricBlueControl
+{
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #052684;
+	margin:0px;
+	overflow: auto;
+	position: relative;
+}
+
+
+.igmv_ElectricBlueControl table
+{
+	border-collapse:Collapse;
+}
+
+
+.igmv_ElectricBlueWeekNumber
+{
+	background-color:#A6C4E0;
+	font-size:10pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px White;
+	padding-right:1px;
+	width: 20px;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueMonthDayOfWeekHeader
+{
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	font-size:8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-bottom:solid 1px Silver;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	height: 5%;
+	line-height: 14px;
+	cursor:default;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueCaptionHeader
+{
+	background-color:#CECECE;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top:solid 1px #052684;
+	border-right:solid 1px #052684;
+	border-bottom:solid 0px #052684;
+	border-left:solid 1px #052684;
+	line-height: 16px;
+	height: 5%;
+	color:White;
+	text-align:center;
+}
+
+
+tr.igmv_ElectricBlueCaptionHeader td.igmv_ElectricBlueWeekNumber
+{
+	background-color:#CECECE;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	line-height: 19px;
+	height: 1%;
+}
+
+
+.igmv_ElectricBlueDay
+{
+	background-color:#F0F0F0;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	border-left:solid 1px Silver;
+	height: 10%;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherMonthDay
+{
+	background-color:#226DA7;
+	border-left:solid 1px Silver;
+	height: 12%;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueToday
+{
+}
+
+
+.igmv_ElectricBlueActiveDay
+{
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+}
+
+
+.igmv_ElectricBlueDayHeader
+{
+	background-color:Gainsboro;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-left:solid 1px Silver;
+	padding-top:0px;
+	padding-right:2px;
+	height: 3%;
+	line-height: 15px;
+	color:White;
+	text-align:right;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherMonthDayHeader
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 1px Silver;
+	border-left:solid 1px Silver;
+	padding-top:0px;
+	padding-right:2px;
+	height: 3%;
+	line-height: 15px;
+	text-align:right;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueTodayHeader
+{
+}
+
+
+.igmv_ElectricBlueActiveDayHeader
+{
+}
+
+
+.igmv_ElectricBlueAppointment
+{
+	background-color:DarkGray;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_ElectricBlueAllDayEvent
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #000000;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_ElectricBlueSelectedAppointment
+{
+	background-color:#316AC5;
+	color:White;
+}
+
+
+.igmv_ElectricBlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:4px 0px 0px 0px;
+	position: absolute;
+	top: 2px;
+	width: 12px;
+	cursor:hand;
+}
+
+
+.igmv_NavigationButtonPrev
+{
+	left: 3px;
+}
+
+
+.igmv_NavigationButtonNext
+{
+	right: 3px;
+}
+
+

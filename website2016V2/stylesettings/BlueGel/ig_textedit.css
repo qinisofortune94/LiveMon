@@ -1,0 +1,58 @@
+.igtxt_BlueGelEditWithButtons
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	font-family: Verdana;
+	border:solid 1px #E1E1E1;
+}
+
+
+.igtxt_BlueGelEdit
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	font-family: Verdana;
+	border:solid 1px #E1E1E1;
+}
+
+
+.igtxt_BlueGelEditInContainer
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+.igtxt_BlueGelButton
+{
+	background-color:#C1D8E6;
+	font-size:1px;
+	border:solid 1px #EAF2FB;
+}
+
+
+.igtxt_BlueGelButtonHover
+{
+	background-color:#B4B4B4;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_BlueGelButtonPressed
+{
+	background-color:#B4B4B4;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_BlueGelButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

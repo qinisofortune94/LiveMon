@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:52633/SLIPmonInterfaceSVC.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetConfigSetting_InputMessage">
+    <wsdl:part name="parameters" element="GetConfigSetting" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetConfigSetting_OutputMessage">
+    <wsdl:part name="parameters" element="GetConfigSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetRemoteAlertHistory_InputMessage">
+    <wsdl:part name="parameters" element="GetRemoteAlertHistory" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetRemoteAlertHistory_OutputMessage">
+    <wsdl:part name="parameters" element="GetRemoteAlertHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_LogIt_InputMessage">
+    <wsdl:part name="parameters" element="LogIt" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_LogIt_OutputMessage">
+    <wsdl:part name="parameters" element="LogItResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSetting_InputMessage">
+    <wsdl:part name="parameters" element="GetSetting" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSetting_OutputMessage">
+    <wsdl:part name="parameters" element="GetSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetAll_InputMessage">
+    <wsdl:part name="parameters" element="GetAll" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetAll_OutputMessage">
+    <wsdl:part name="parameters" element="GetAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSites_InputMessage">
+    <wsdl:part name="parameters" element="GetSites" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSites_OutputMessage">
+    <wsdl:part name="parameters" element="GetSitesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplays_InputMessage">
+    <wsdl:part name="parameters" element="GetDisplays" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplays_OutputMessage">
+    <wsdl:part name="parameters" element="GetDisplaysResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_DelDisplayGroup_InputMessage">
+    <wsdl:part name="parameters" element="DelDisplayGroup" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_DelDisplayGroup_OutputMessage">
+    <wsdl:part name="parameters" element="DelDisplayGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplayGroup_InputMessage">
+    <wsdl:part name="parameters" element="GetDisplayGroup" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplayGroup_OutputMessage">
+    <wsdl:part name="parameters" element="GetDisplayGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplayGroups_InputMessage">
+    <wsdl:part name="parameters" element="GetDisplayGroups" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetDisplayGroups_OutputMessage">
+    <wsdl:part name="parameters" element="GetDisplayGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_ReturnDisplayFiles_InputMessage">
+    <wsdl:part name="parameters" element="ReturnDisplayFiles" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_ReturnDisplayFiles_OutputMessage">
+    <wsdl:part name="parameters" element="ReturnDisplayFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_DeleteDisplayFiles_InputMessage">
+    <wsdl:part name="parameters" element="DeleteDisplayFiles" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_DeleteDisplayFiles_OutputMessage">
+    <wsdl:part name="parameters" element="DeleteDisplayFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_UploadDisplayFileBin_InputMessage">
+    <wsdl:part name="parameters" element="UploadDisplayFileBin" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_UploadDisplayFileBin_OutputMessage">
+    <wsdl:part name="parameters" element="UploadDisplayFileBinResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_AddDisplay_InputMessage">
+    <wsdl:part name="parameters" element="AddDisplay" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_AddDisplay_OutputMessage">
+    <wsdl:part name="parameters" element="AddDisplayResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_AddDisplayGroupPage_InputMessage">
+    <wsdl:part name="parameters" element="AddDisplayGroupPage" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_AddDisplayGroupPage_OutputMessage">
+    <wsdl:part name="parameters" element="AddDisplayGroupPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_EditDisplayGroupPage_InputMessage">
+    <wsdl:part name="parameters" element="EditDisplayGroupPage" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_EditDisplayGroupPage_OutputMessage">
+    <wsdl:part name="parameters" element="EditDisplayGroupPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_ChangeDisplayGroupPage_InputMessage">
+    <wsdl:part name="parameters" element="ChangeDisplayGroupPage" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_ChangeDisplayGroupPage_OutputMessage">
+    <wsdl:part name="parameters" element="ChangeDisplayGroupPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_SetDisplaySensorPosition_InputMessage">
+    <wsdl:part name="parameters" element="SetDisplaySensorPosition" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_SetDisplaySensorPosition_OutputMessage">
+    <wsdl:part name="parameters" element="SetDisplaySensorPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_SetDisplayBackImage_InputMessage">
+    <wsdl:part name="parameters" element="SetDisplayBackImage" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_SetDisplayBackImage_OutputMessage">
+    <wsdl:part name="parameters" element="SetDisplayBackImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_RemoveSensor_InputMessage">
+    <wsdl:part name="parameters" element="RemoveSensor" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_RemoveSensor_OutputMessage">
+    <wsdl:part name="parameters" element="RemoveSensorResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetAllSensors_InputMessage">
+    <wsdl:part name="parameters" element="GetAllSensors" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetAllSensors_OutputMessage">
+    <wsdl:part name="parameters" element="GetAllSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSpecificSensorDisplay_InputMessage">
+    <wsdl:part name="parameters" element="GetSpecificSensorDisplay" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSpecificSensorDisplay_OutputMessage">
+    <wsdl:part name="parameters" element="GetSpecificSensorDisplayResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetListSensors_InputMessage">
+    <wsdl:part name="parameters" element="GetListSensors" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetListSensors_OutputMessage">
+    <wsdl:part name="parameters" element="GetListSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetGroupSensors_InputMessage">
+    <wsdl:part name="parameters" element="GetGroupSensors" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetGroupSensors_OutputMessage">
+    <wsdl:part name="parameters" element="GetGroupSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetGroupSensorsStatus_InputMessage">
+    <wsdl:part name="parameters" element="GetGroupSensorsStatus" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetGroupSensorsStatus_OutputMessage">
+    <wsdl:part name="parameters" element="GetGroupSensorsStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSiteSensors_InputMessage">
+    <wsdl:part name="parameters" element="GetSiteSensors" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSiteSensors_OutputMessage">
+    <wsdl:part name="parameters" element="GetSiteSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSiteSensorsStatus_InputMessage">
+    <wsdl:part name="parameters" element="GetSiteSensorsStatus" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSiteSensorsStatus_OutputMessage">
+    <wsdl:part name="parameters" element="GetSiteSensorsStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensors_InputMessage">
+    <wsdl:part name="parameters" element="GetSensors" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensors_OutputMessage">
+    <wsdl:part name="parameters" element="GetSensorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_CheckLogin_InputMessage">
+    <wsdl:part name="parameters" element="CheckLogin" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_CheckLogin_OutputMessage">
+    <wsdl:part name="parameters" element="CheckLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorValues_InputMessage">
+    <wsdl:part name="parameters" element="GetSensorValues" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorValues_OutputMessage">
+    <wsdl:part name="parameters" element="GetSensorValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorsStatus_InputMessage">
+    <wsdl:part name="parameters" element="GetSensorsStatus" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorsStatus_OutputMessage">
+    <wsdl:part name="parameters" element="GetSensorsStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorStatus_InputMessage">
+    <wsdl:part name="parameters" element="GetSensorStatus" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorStatus_OutputMessage">
+    <wsdl:part name="parameters" element="GetSensorStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorHistory_InputMessage">
+    <wsdl:part name="parameters" element="GetSensorHistory" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSensorHistory_OutputMessage">
+    <wsdl:part name="parameters" element="GetSensorHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringKWh_InputMessage">
+    <wsdl:part name="parameters" element="GetMeteringKWh" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringKWh_OutputMessage">
+    <wsdl:part name="parameters" element="GetMeteringKWhResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringProfileRecordHistory_InputMessage">
+    <wsdl:part name="parameters" element="GetMeteringProfileRecordHistory" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringProfileRecordHistory_OutputMessage">
+    <wsdl:part name="parameters" element="GetMeteringProfileRecordHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringProfileMarkerHistory_InputMessage">
+    <wsdl:part name="parameters" element="GetMeteringProfileMarkerHistory" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringProfileMarkerHistory_OutputMessage">
+    <wsdl:part name="parameters" element="GetMeteringProfileMarkerHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringTarrif_InputMessage">
+    <wsdl:part name="parameters" element="GetMeteringTarrif" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringTarrif_OutputMessage">
+    <wsdl:part name="parameters" element="GetMeteringTarrifResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringTarrifNames_InputMessage">
+    <wsdl:part name="parameters" element="GetMeteringTarrifNames" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetMeteringTarrifNames_OutputMessage">
+    <wsdl:part name="parameters" element="GetMeteringTarrifNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetCameras_InputMessage">
+    <wsdl:part name="parameters" element="GetCameras" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetCameras_OutputMessage">
+    <wsdl:part name="parameters" element="GetCamerasResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetCameraImage_InputMessage">
+    <wsdl:part name="parameters" element="GetCameraImage" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetCameraImage_OutputMessage">
+    <wsdl:part name="parameters" element="GetCameraImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetIPDevicesDetails_InputMessage">
+    <wsdl:part name="parameters" element="GetIPDevicesDetails" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetIPDevicesDetails_OutputMessage">
+    <wsdl:part name="parameters" element="GetIPDevicesDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetOtherDevicesDetails_InputMessage">
+    <wsdl:part name="parameters" element="GetOtherDevicesDetails" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetOtherDevicesDetails_OutputMessage">
+    <wsdl:part name="parameters" element="GetOtherDevicesDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSNMPManagerDetails_InputMessage">
+    <wsdl:part name="parameters" element="GetSNMPManagerDetails" />
+  </wsdl:message>
+  <wsdl:message name="SLIPmonInterfaceSVC_GetSNMPManagerDetails_OutputMessage">
+    <wsdl:part name="parameters" element="GetSNMPManagerDetailsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SLIPmonInterfaceSVC">
+    <wsdl:operation name="GetConfigSetting">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetConfigSetting" message="SLIPmonInterfaceSVC_GetConfigSetting_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetConfigSettingResponse" message="SLIPmonInterfaceSVC_GetConfigSetting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRemoteAlertHistory">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetRemoteAlertHistory" message="SLIPmonInterfaceSVC_GetRemoteAlertHistory_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetRemoteAlertHistoryResponse" message="SLIPmonInterfaceSVC_GetRemoteAlertHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogIt">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/LogIt" message="SLIPmonInterfaceSVC_LogIt_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/LogItResponse" message="SLIPmonInterfaceSVC_LogIt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSetting">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSetting" message="SLIPmonInterfaceSVC_GetSetting_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSettingResponse" message="SLIPmonInterfaceSVC_GetSetting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetAll" message="SLIPmonInterfaceSVC_GetAll_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetAllResponse" message="SLIPmonInterfaceSVC_GetAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSites">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSites" message="SLIPmonInterfaceSVC_GetSites_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSitesResponse" message="SLIPmonInterfaceSVC_GetSites_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisplays">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplays" message="SLIPmonInterfaceSVC_GetDisplays_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplaysResponse" message="SLIPmonInterfaceSVC_GetDisplays_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelDisplayGroup">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/DelDisplayGroup" message="SLIPmonInterfaceSVC_DelDisplayGroup_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/DelDisplayGroupResponse" message="SLIPmonInterfaceSVC_DelDisplayGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisplayGroup">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplayGroup" message="SLIPmonInterfaceSVC_GetDisplayGroup_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplayGroupResponse" message="SLIPmonInterfaceSVC_GetDisplayGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisplayGroups">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplayGroups" message="SLIPmonInterfaceSVC_GetDisplayGroups_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetDisplayGroupsResponse" message="SLIPmonInterfaceSVC_GetDisplayGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnDisplayFiles">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/ReturnDisplayFiles" message="SLIPmonInterfaceSVC_ReturnDisplayFiles_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/ReturnDisplayFilesResponse" message="SLIPmonInterfaceSVC_ReturnDisplayFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDisplayFiles">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/DeleteDisplayFiles" message="SLIPmonInterfaceSVC_DeleteDisplayFiles_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/DeleteDisplayFilesResponse" message="SLIPmonInterfaceSVC_DeleteDisplayFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadDisplayFileBin">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/UploadDisplayFileBin" message="SLIPmonInterfaceSVC_UploadDisplayFileBin_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/UploadDisplayFileBinResponse" message="SLIPmonInterfaceSVC_UploadDisplayFileBin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDisplay">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/AddDisplay" message="SLIPmonInterfaceSVC_AddDisplay_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/AddDisplayResponse" message="SLIPmonInterfaceSVC_AddDisplay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDisplayGroupPage">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/AddDisplayGroupPage" message="SLIPmonInterfaceSVC_AddDisplayGroupPage_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/AddDisplayGroupPageResponse" message="SLIPmonInterfaceSVC_AddDisplayGroupPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditDisplayGroupPage">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/EditDisplayGroupPage" message="SLIPmonInterfaceSVC_EditDisplayGroupPage_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/EditDisplayGroupPageResponse" message="SLIPmonInterfaceSVC_EditDisplayGroupPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeDisplayGroupPage">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/ChangeDisplayGroupPage" message="SLIPmonInterfaceSVC_ChangeDisplayGroupPage_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/ChangeDisplayGroupPageResponse" message="SLIPmonInterfaceSVC_ChangeDisplayGroupPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDisplaySensorPosition">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/SetDisplaySensorPosition" message="SLIPmonInterfaceSVC_SetDisplaySensorPosition_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/SetDisplaySensorPositionResponse" message="SLIPmonInterfaceSVC_SetDisplaySensorPosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDisplayBackImage">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/SetDisplayBackImage" message="SLIPmonInterfaceSVC_SetDisplayBackImage_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/SetDisplayBackImageResponse" message="SLIPmonInterfaceSVC_SetDisplayBackImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSensor">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/RemoveSensor" message="SLIPmonInterfaceSVC_RemoveSensor_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/RemoveSensorResponse" message="SLIPmonInterfaceSVC_RemoveSensor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSensors">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetAllSensors" message="SLIPmonInterfaceSVC_GetAllSensors_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetAllSensorsResponse" message="SLIPmonInterfaceSVC_GetAllSensors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificSensorDisplay">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSpecificSensorDisplay" message="SLIPmonInterfaceSVC_GetSpecificSensorDisplay_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSpecificSensorDisplayResponse" message="SLIPmonInterfaceSVC_GetSpecificSensorDisplay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListSensors">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetListSensors" message="SLIPmonInterfaceSVC_GetListSensors_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetListSensorsResponse" message="SLIPmonInterfaceSVC_GetListSensors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupSensors">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetGroupSensors" message="SLIPmonInterfaceSVC_GetGroupSensors_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetGroupSensorsResponse" message="SLIPmonInterfaceSVC_GetGroupSensors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupSensorsStatus">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetGroupSensorsStatus" message="SLIPmonInterfaceSVC_GetGroupSensorsStatus_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetGroupSensorsStatusResponse" message="SLIPmonInterfaceSVC_GetGroupSensorsStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSiteSensors">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSiteSensors" message="SLIPmonInterfaceSVC_GetSiteSensors_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSiteSensorsResponse" message="SLIPmonInterfaceSVC_GetSiteSensors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSiteSensorsStatus">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSiteSensorsStatus" message="SLIPmonInterfaceSVC_GetSiteSensorsStatus_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSiteSensorsStatusResponse" message="SLIPmonInterfaceSVC_GetSiteSensorsStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSensors">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensors" message="SLIPmonInterfaceSVC_GetSensors_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorsResponse" message="SLIPmonInterfaceSVC_GetSensors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogin">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/CheckLogin" message="SLIPmonInterfaceSVC_CheckLogin_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/CheckLoginResponse" message="SLIPmonInterfaceSVC_CheckLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSensorValues">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorValues" message="SLIPmonInterfaceSVC_GetSensorValues_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorValuesResponse" message="SLIPmonInterfaceSVC_GetSensorValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSensorsStatus">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorsStatus" message="SLIPmonInterfaceSVC_GetSensorsStatus_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorsStatusResponse" message="SLIPmonInterfaceSVC_GetSensorsStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSensorStatus">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorStatus" message="SLIPmonInterfaceSVC_GetSensorStatus_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorStatusResponse" message="SLIPmonInterfaceSVC_GetSensorStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSensorHistory">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorHistory" message="SLIPmonInterfaceSVC_GetSensorHistory_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSensorHistoryResponse" message="SLIPmonInterfaceSVC_GetSensorHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeteringKWh">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringKWh" message="SLIPmonInterfaceSVC_GetMeteringKWh_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringKWhResponse" message="SLIPmonInterfaceSVC_GetMeteringKWh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeteringProfileRecordHistory">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringProfileRecordHistory" message="SLIPmonInterfaceSVC_GetMeteringProfileRecordHistory_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringProfileRecordHistoryResponse" message="SLIPmonInterfaceSVC_GetMeteringProfileRecordHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeteringProfileMarkerHistory">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringProfileMarkerHistory" message="SLIPmonInterfaceSVC_GetMeteringProfileMarkerHistory_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringProfileMarkerHistoryResponse" message="SLIPmonInterfaceSVC_GetMeteringProfileMarkerHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeteringTarrif">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringTarrif" message="SLIPmonInterfaceSVC_GetMeteringTarrif_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringTarrifResponse" message="SLIPmonInterfaceSVC_GetMeteringTarrif_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeteringTarrifNames">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringTarrifNames" message="SLIPmonInterfaceSVC_GetMeteringTarrifNames_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetMeteringTarrifNamesResponse" message="SLIPmonInterfaceSVC_GetMeteringTarrifNames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCameras">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetCameras" message="SLIPmonInterfaceSVC_GetCameras_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetCamerasResponse" message="SLIPmonInterfaceSVC_GetCameras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCameraImage">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetCameraImage" message="SLIPmonInterfaceSVC_GetCameraImage_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetCameraImageResponse" message="SLIPmonInterfaceSVC_GetCameraImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDevicesDetails">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetIPDevicesDetails" message="SLIPmonInterfaceSVC_GetIPDevicesDetails_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetIPDevicesDetailsResponse" message="SLIPmonInterfaceSVC_GetIPDevicesDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOtherDevicesDetails">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetOtherDevicesDetails" message="SLIPmonInterfaceSVC_GetOtherDevicesDetails_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetOtherDevicesDetailsResponse" message="SLIPmonInterfaceSVC_GetOtherDevicesDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSNMPManagerDetails">
+      <wsdl:input wsaw:Action="urn:SLIPmonInterfaceSVC/GetSNMPManagerDetails" message="SLIPmonInterfaceSVC_GetSNMPManagerDetails_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SLIPmonInterfaceSVC/GetSNMPManagerDetailsResponse" message="SLIPmonInterfaceSVC_GetSNMPManagerDetails_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

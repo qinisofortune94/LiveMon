@@ -1,0 +1,65 @@
+﻿body {
+}
+#gate li{
+    margin:0;
+    float: left;
+    display:block;
+    padding-right:15px;
+}
+#gate li.off ul,#gate li.on ul{
+    display: none;
+     position: absolute;
+  top: 33px;
+  height: 15px;
+  left: 0;
+  padding-top: 10px;
+}
+#gate li a {
+    color: #f90;
+    font-weight:bold;
+    display: block;
+    height: 15px;
+    width:100px;
+    border:1px solid #29497b;
+    padding: 5px;
+    border:1px solid #f00;
+}
+#nav li.on a {
+  /*change border color for active topic area*/
+  border: 1px solid #f90;
+}#nav li.on ul a, #nav li.off ul a {
+  /*  cancel inherit of border
+      on subnav of active topic */
+  border: 0;
+}#nav li.on ul {
+  /*display active subnav list*/
+  display: block;
+}
+ #nav li.on ul a, #nav li.off ul a {
+  float: left;
+  /*ie doesn't inherit the float*/
+  border: 0;
+  color: #f90;
+  width: auto;
+  margin-right: 15px;
+}#nav li.on ul {
+  /*display the current topic*/
+  display: block;
+}#nav li.off:hover ul {
+  /*  display the other topics when
+      their parent is hovered */
+  display: block;
+  z-index: 6000;
+}
+ #nav li.off a:hover, #nav li.off:hover a {
+  background: #29497b;
+  color: #f90;
+}
+ #nav li.off ul, #nav li.on ul {
+  /*put the subnav below*/
+  top: 33px;
+  *top: 44px; /*reposition for IE*/
+}
+
+
+

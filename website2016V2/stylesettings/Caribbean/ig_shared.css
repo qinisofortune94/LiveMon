@@ -1,0 +1,106 @@
+.ig_CaribbeanControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	cursor:default;
+	color:Black;
+}
+
+
+.ig_CaribbeanItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_CaribbeanButton
+{
+	cursor:hand;
+}
+
+
+.ig_CaribbeanButtonHover
+{
+}
+
+
+.ig_CaribbeanButtonPressed
+{
+}
+
+
+.ig_CaribbeanButtonDisabled
+{
+}
+
+
+.ig_CaribbeanHover
+{
+}
+
+
+.ig_CaribbeanSelected
+{
+}
+
+
+.ig_CaribbeanDisabled
+{
+}
+
+
+.ig_CaribbeanHeader
+{
+}
+
+
+.ig_CaribbeanFooter
+{
+}
+
+
+.ig_CaribbeanEditWithButtons
+{
+}
+
+
+.ig_CaribbeanEdit
+{
+}
+
+
+.ig_CaribbeanEditInContainer
+{
+}
+
+
+.ig_CaribbeanAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_CaribbeanDropDown
+{
+}
+
+
+.ig_CaribbeanEditSelected
+{
+}
+
+
+Body
+{
+	background-color:White;
+	cursor:default;
+}
+
+

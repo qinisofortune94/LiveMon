@@ -1,0 +1,75 @@
+.igtab_Office2007BlueControl_Outer
+{
+}
+.igtab_Office2007BlueControl
+{
+	border:1px #5090C0 solid;
+	background-color:#FEF0F0;
+}
+.igtab_Office2007BlueDefaultTab_Bottom
+{
+	border:1px #5090C0 solid;
+	background-color:#D0D0F0;
+	font-family:Tahoma;
+	font-size:9pt;
+	padding:2px;
+}
+.igtab_Office2007BlueHoverTab_Bottom
+{
+	background-color:#F0F0FF;
+}
+.igtab_Office2007BlueSelectedTab_Bottom
+{
+	background-color:#FEF0F0;
+	border-top-color:#FEF0F0;
+}
+.igtab_Office2007BlueSeparator_Bottom
+{
+	border-top:1px #5090C0 solid;
+	border-bottom:0px !important;
+	border-left:0px !important;
+	border-right:0px !important;
+}
+
+.igtab_Office2007BlueDefaultTab_Bottom_Rounded
+{
+	font-family:Tahoma;
+	font-size:9pt;
+	border:1px #5090C0 solid;
+	height:100%;
+	padding:0px 0px 4px 5px;
+	cursor:pointer;
+	background:url(./images/ig_tab_BottomNormal.gif) no-repeat left bottom;
+	border-bottom:0px !important;
+	border-left:0px !important;
+	border-right:0px !important;
+	background-color:transparent !important;
+}
+.igtab_Office2007BlueHoverTab_Bottom_Rounded
+{
+	background-image:url(./images/ig_tab_BottomHover.gif);
+}
+.igtab_Office2007BlueSelectedTab_Bottom_Rounded
+{
+	border-color:#FEF0F0;
+	cursor:Default;
+	background-image:url(./images/ig_tab_BottomSelected.gif);
+}
+.igtab_Office2007BlueDefaultTab_Bottom_Edge
+{
+	font-size:2px;
+	padding:0px;
+	background-position:right bottom;
+}
+.igtab_Office2007BlueButton
+{
+}
+.igtab_Office2007BlueButtonHover
+{
+}
+.igtab_Office2007BlueButtonPressed
+{
+}
+.igtab_Office2007BlueButtonDisabled
+{
+}

@@ -1,0 +1,108 @@
+.igcmb_Office2007BlackControl
+{
+}
+
+
+.igcmb_Office2007BlackEditWithButtons
+{
+	border:solid 1px #ACACAC;
+	cursor:hand;
+}
+
+
+.igcmb_Office2007BlackPagerArea
+{
+}
+
+
+.igcmb_Office2007BlackPageCurrent
+{
+}
+
+
+.igcmb_Office2007BlackPageLink
+{
+}
+
+
+.igcmb_Office2007BlackItem
+{
+	border:solid 1px Transparent;
+	border-right-color:#D0D7E5;
+	border-bottom-color:#D0D7E5;
+}
+
+
+.igcmb_Office2007BlackAlt
+{
+}
+
+
+.igcmb_Office2007BlackHeader
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/office_grid_header.jpg);
+	border-width:0px;
+	border-color:Transparent;
+	border-right-width:1px;
+	border-right-color:#F29536;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.igcmb_Office2007BlackFooter
+{
+}
+
+
+.igcmb_Office2007BlackLabel
+{
+	background-color:#EDEDED;
+	background-image:none;
+	border-right-width:1px;
+	border-right-color:#B6B6B6;
+	border-bottom-width:1px;
+	border-bottom-color:#B6B6B6;
+}
+
+
+.igcmb_Office2007BlackSelected
+{
+	background-color:#EAECF5;
+	border-width:1px;
+	color:Black;
+}
+
+
+.igcmb_Office2007BlackEditSelected
+{
+}
+
+
+.igcmb_Office2007BlackActiveBorderTopBottom
+{
+}
+
+
+.igcmb_Office2007BlackActiveBorderLeft
+{
+}
+
+
+.igcmb_Office2007BlackActiveBorderRight
+{
+}
+
+
+.igcmb_Office2007BlackFilterDropDown
+{
+}
+
+
+.igcmb_Office2007BlackFilterOperandDropDown
+{
+}
+
+

@@ -1,0 +1,124 @@
+.igwv_CaribbeanControl
+{
+}
+
+
+.igwv_CaribbeanCaptionHeader
+{
+	background-color:#CECECE;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	font-weight:bold;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top:solid 1px #052684;
+	border-right:solid 1px #052684;
+	border-left:solid 1px #052684;
+	border-bottom-width:0px;
+	height: 30px;
+	color:White;
+	text-align:center;
+}
+
+
+.igwv_CaribbeanDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	height: 18px;
+	cursor:default;
+	text-align:right;
+}
+
+
+.igwv_CaribbeanDay
+{
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+	cursor:hand;
+}
+
+
+.igwv_CaribbeanAppointment
+{
+	margin:0px 1px 0px 1px;
+	padding:2px;
+	line-height: 150%;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+
+.igwv_CaribbeanAllDayEvent
+{
+	background-color:#FAFAFA;
+	border:solid 1px Silver;
+}
+
+
+.igwv_CaribbeanNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 17px;
+	cursor:hand;
+	vertical-align:middle;
+}
+
+
+.igwv_CaribbeanDayArea
+{
+	border:solid 1px #052684;
+}
+
+
+.igwv_CaribbeanTodayHeader
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/panel_body.gif);
+}
+
+
+.igwv_CaribbeanToday
+{
+}
+
+
+.igwv_CaribbeanSelectedAppointment
+{
+	background-color:#DAEAFF;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding:1px;
+	cursor:pointer;
+	color:#052684;
+}
+
+
+.igwv_CaribbeanActiveDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	color:White;
+}
+
+
+.igwv_CaribbeanActiveDay
+{
+	background-color:#E6EDF7;
+	background-image: url(images/bg_diagonal.gif);
+}
+
+

@@ -1,0 +1,219 @@
+.igtbl_BlueGelControl
+{
+	border:solid 1px #052684;
+	cursor:default;
+}
+
+
+.igtbl_BlueGelPagerArea
+{
+	background-color:WhiteSmoke;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_BlueGelPageCurrent
+{
+	margin-right:10px;
+}
+
+
+.igtbl_BlueGelPageLink
+{
+	margin-right:10px;
+	color:DimGray;
+}
+
+
+.igtbl_BlueGelGroupByBox
+{
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_f.gif);
+	border-bottom:solid 1px #D2D2D2;
+}
+
+
+.igtbl_BlueGelAddNewBox
+{
+	background-color:WhiteSmoke;
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+}
+
+
+TBODY.igtbl_BlueGelItem TR TD, THEAD.igtbl_BlueGelItem TR TH, TFOOT.igtbl_BlueGelItem TR TH, TBODY.igtbl_BlueGelItem TR TH
+{
+	background-position:bottom ;
+	background-image: url(images/tab_bottom_hover_f.gif);
+	border-top:solid 1px Gainsboro;
+	border-bottom:solid 1px Transparent;
+	height: 30px;
+	height: 30px;
+}
+
+
+.igtbl_BlueGelFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_disable.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+}
+
+
+TBODY.igtbl_BlueGelItem TR.igtbl_BlueGelAlt TD
+{
+	background-image: url(images/alt_item.gif);
+	border-bottom:solid 1px Transparent;
+}
+
+
+.igtbl_BlueGelEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px #8DC2D6;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_BlueGelButton
+{
+}
+
+
+TBODY.igtbl_BlueGelItem TR TD.igtbl_BlueGelFxdCell
+{
+}
+
+
+THEAD.igtbl_BlueGelHeader TR TH, TFOOT.igtbl_BlueGelHeader TR TH, TBODY.igtbl_BlueGelHeader TR TH
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+	padding-top:3px;
+	padding-bottom:3px;
+	height: 35px;
+	color:#052684;
+}
+
+
+TFOOT.igtbl_BlueGelFooter TR TH
+{
+	background-color:#F3F8FB;
+	background-image:none;
+	border-width:0px;
+}
+
+
+TBODY.igtbl_BlueGelHeader TR TH.igtbl_BlueGelLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border:solid 1px LightGrey;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	height: 30px;
+}
+
+
+TBODY.igtbl_BlueGelHeader TR TH.igtbl_BlueGelExpArea, TFOOT.igtbl_BlueGelHeader TR TH.igtbl_BlueGelExpArea
+{
+	background-color:#F3F8FB;
+	background-image:none;
+	border-style:solid;
+	border-color:Transparent;
+	border-top-width:1px;
+	padding-top:2px;
+	width: 18px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+TBODY.igtbl_BlueGelHeader TR TH.igtbl_BlueGelGrpItem
+{
+}
+
+
+THEAD.igtbl_BlueGelHeader TR TH.igtbl_BlueGelFxdHeader
+{
+}
+
+
+.igtbl_BlueGelGroupBandLabel
+{
+}
+
+
+TFOOT.igtbl_BlueGelHeader TR TH.igtbl_BlueGelFxdFooter
+{
+}
+
+
+.igtbl_BlueGelDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px #A6CDE4;
+}
+
+
+.igtbl_BlueGelDropDownSel
+{
+}
+
+
+TBODY.igtbl_BlueGelItem TR.igtbl_BlueGelSelected TD, TBODY.igtbl_BlueGelItem TR TD.igtbl_BlueGelSelected, .igtbl_BlueGelSelected
+{
+	background-color:DimGray;
+	background-position:center center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-top:solid 1px #E1E1E1;
+	color:Black;
+}
+
+
+TBODY.igtbl_BlueGelItem TR TD.igtbl_BlueGelActiveBorder_TB, .igtbl_BlueGelActiveBorder_TB
+{
+	border-top:solid 1px #00178D;
+	border-bottom:solid 1px #00178D;
+}
+
+
+TBODY.igtbl_BlueGelItem TR TD.igtbl_BlueGelActiveBorder_L, .igtbl_BlueGelActiveBorder_L
+{
+	border-left:solid 1px #00178D;
+}
+
+
+TBODY.igtbl_BlueGelItem TR TD.igtbl_BlueGelActiveBorder_R, .igtbl_BlueGelActiveBorder_R
+{
+	border-right:solid 1px #00178D;
+}
+
+
+.igtbl_BlueGelFilterDropDown
+{
+}
+
+
+.igtbl_BlueGelFilterOperandDropDown
+{
+}
+
+

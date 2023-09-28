@@ -1,0 +1,84 @@
+.igmn_Office2007BlueControl
+{
+	background-color:#E3EFFF;
+	border-color:Transparent;
+}
+
+
+.igmn_Office2007BlueIsland
+{
+	background-color:#E3EFFF;
+	border:solid 1px #E1E1E1;
+}
+
+
+.igmn_Office2007BlueItem
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 1px Transparent;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:hand;
+}
+
+
+.igmn_Office2007BlueLeaf
+{
+}
+
+
+.igmn_Office2007BlueParent
+{
+}
+
+
+.igmn_Office2007BlueTopLevelLeaf
+{
+}
+
+
+.igmn_Office2007BlueTopLevelParent
+{
+}
+
+
+.igmn_Office2007BlueHeader
+{
+}
+
+
+.igmn_Office2007BlueSeparator
+{
+}
+
+
+.igmn_Office2007BlueHover
+{
+	background-image: url(images/day_header_active.jpg);
+	border:solid 1px BurlyWood;
+	cursor:hand;
+}
+
+
+.igmn_Office2007BlueTopLevelHover
+{
+	background-position:center ;
+	background-image: url(images/day_header_active.jpg);
+	border:solid 1px BurlyWood;
+}
+
+
+.igmn_Office2007BlueTopSelected
+{
+}
+
+
+.igmn_Office2007BlueDisabled
+{
+	font-size:x-small;
+	font-family: Verdana;
+	color:#D2D2D2;
+}
+
+

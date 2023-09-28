@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB33E010-FE51-4D5D-AE44-3D94CAD86134}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Website_2016_V3</RootNamespace>
+    <AssemblyName>Website 2016 V3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNet.Highcharts">
+      <HintPath>..\..\..\IPMonDev2014CloudTFS\website2016V2\Bin\DotNet.Highcharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.UltraWebGrid.v7.1, Version=7.1.20071.1071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\IPMonDev2014CloudTFS\Referenced Assemblies\Infragistics\Web\Infragistics2.WebUI.UltraWebGrid.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="IRemoteLib">
+      <HintPath>..\..\..\IPMonDev2014CloudTFS\IRemoteLib\bin\x86\Debug\IRemoteLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveMonWebBusinessLogic">
+      <HintPath>..\..\..\IPMonDev2014CloudTFS\LiveMonWebBusinessLogic\bin\Debug\LiveMonWebBusinessLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nsoftware.IPWorks">
+      <HintPath>..\..\..\..\Program Files\nsoftware\IPWorks V9 .NET Edition\lib\nsoftware.IPWorks.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorks.System">
+      <HintPath>..\..\..\..\Program Files\nsoftware\IPWorks V9 .NET Edition\lib\nsoftware.IPWorks.System.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorksWeb">
+      <HintPath>..\..\..\..\Program Files\nsoftware\IPWorks V9 .NET Edition\lib\nsoftware.IPWorksWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\AddPhoneNumber.aspx" />
+    <Content Include="Account\Confirm.aspx" />
+    <Content Include="Account\Forgot.aspx" />
+    <Content Include="Account\Lockout.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\ManageLogins.aspx" />
+    <Content Include="Account\ManagePassword.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Account\ResetPassword.aspx" />
+    <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
+    <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="ActiveDirectoryUnits.aspx" />
+    <Content Include="AddAlert.aspx" />
+    <Content Include="AddAlertThreshHolds.aspx" />
+    <Content Include="AddIPDevice.aspx" />
+    <Content Include="AddOtherDevices.aspx" />
+    <Content Include="AddOtherDeviceTemplate.aspx" />
+    <Content Include="addPeople.aspx" />
+    <Content Include="AddUsers.aspx" />
+    <Content Include="AlertContact.aspx" />
+    <Content Include="AlertHistory.aspx" />
+    <Content Include="BackupData.aspx" />
+    <Content Include="BulkOtherDevice.aspx" />
+    <Content Include="ClientInfo.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\customize-template.css" />
+    <Content Include="css\floatexamples.css" />
+    <Content Include="css\ion.rangeSlider.css" />
+    <Content Include="css\ion.rangeSlider.skinFlat.css" />
+    <Content Include="css\mystyle.css" />
+    <Content Include="css\navigation.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\nprogress.css" />
+    <Content Include="CustomGraphs.aspx" />
+    <Content Include="Dashboard\liveMonColumn.ascx" />
+    <Content Include="Dashboard\liveMonGauge.ascx" />
+    <Content Include="Dashboard\liveMonLine.ascx" />
+    <Content Include="Dashboard\liveMonOnOff.ascx" />
+    <Content Include="Dashboard\liveMonOnOffReal.ascx" />
+    <Content Include="Dashboard\liveMonPIE.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DefaultIcons.aspx" />
+    <Content Include="DeviceInfo.aspx" />
+    <Content Include="EditAlerts.aspx" />
+    <Content Include="EditAlertTemplate.aspx" />
+    <Content Include="EditSensor.aspx" />
+    <Content Include="ExportData.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Graphs.aspx" />
+    <Content Include="images\1.png" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\al.png" />
+    <Content Include="images\alets.png" />
+    <Content Include="images\american-express.png" />
+    <Content Include="images\back_disabled.png" />
+    <Content Include="images\back_enabled.png" />
+    <Content Include="images\back_enabled_hover.png" />
+    <Content Include="images\cameras.jpg" />
+    <Content Include="images\data.png" />
+    <Content Include="images\devices.jpg" />
+    <Content Include="images\Eye.png" />
+    <Content Include="images\face.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\forward_disabled.png" />
+    <Content Include="images\forward_enabled.png" />
+    <Content Include="images\forward_enabled_hover.png" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\img.jpg" />
+    <Content Include="images\in.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\login.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mastercard.png" />
+    <Content Include="images\meter.jpg" />
+    <Content Include="images\paypal2.png" />
+    <Content Include="images\picture-2.jpg" />
+    <Content Include="images\picture.jpg" />
+    <Content Include="images\picture2.jpg" />
+    <Content Include="images\prod1.jpg" />
+    <Content Include="images\prod2.jpg" />
+    <Content Include="images\prod3.jpg" />
+    <Content Include="images\prod4.jpg" />
+    <Content Include="images\prod5.jpg" />
+    <Content Include="images\sensor.jpg" />
+    <Content Include="images\sort_asc.png" />
+    <Content Include="images\sort_asc_disabled.png" />
+    <Content Include="images\sort_both.png" />
+    <Content Include="images\sort_desc.png" />
+    <Content Include="images\sort_desc_disabled.png" />
+    <Content Include="images\sprite-skin-flat.png" />
+    <Content Include="images\sprite-skin-modern.png" />
+    <Content Include="images\sprite-skin-nice.png" />
+    <Content Include="images\sprite-skin-simple.png" />
+    <Content Include="images\status.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\visa.png" />
+    <Content Include="ImportIPDevices.aspx" />
+    <Content Include="ImportOtherDevices.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="IPBulkDevices.aspx" />
+    <Content Include="IPDevices\IPDevice.aspx" />
+    <Content Include="IPDeviceTemplate.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\nprogress.js" />
+    <Content Include="LinkAlertcontact.aspx" />
+    <Content Include="MeteringEventLog.aspx" />
+    <Content Include="MeteringRescanProfile.aspx" />
+    <Content Include="NewDashboardSetting.aspx" />
+    <Content Include="NewVideo.aspx" />
+    <Content Include="PageSecuritySetup.aspx" />
+    <Content Include="PageSites.aspx" />
+    <Content Include="Project_Readme.html" />
+    <Content Include="Reports.aspx" />
+    <Content Include="ReportsConfig.aspx" />
+    <Content Include="Scripts2\drilldown.js" />
+    <Content Include="Scripts2\exporting.js" />
+    <Content Include="Scripts2\highcharts-more.js" />
+    <Content Include="Scripts2\highcharts.js" />
+    <Content Include="Scripts2\jquery.min.js" />
+    <Content Include="Scripts\ai.0.15.0-build58334.js" />
+    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\adapters\standalone-framework.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\adapters\standalone-framework.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-3d.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-3d.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-all.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-more.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-more.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\canvas-tools.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\canvas-tools.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\data.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\data.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\drilldown.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\drilldown.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\exporting.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\exporting.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\funnel.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\funnel.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\heatmap.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\heatmap.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\no-data-to-display.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\no-data-to-display.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\solid-gauge.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\solid-gauge.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-blue.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-green.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-unica.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\gray.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\grid-light.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\grid.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\sand-signika.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\skies.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="SensorDetails.aspx" />
+    <Content Include="SensorStatus.aspx" />
+    <Content Include="Sensor_readings_by_status.aspx" />
+    <Content Include="ServerConfiguration.aspx" />
+    <Content Include="Services\WebServiceColumnChart.asmx" />
+    <Content Include="Services\WebServicePieChart.asmx" />
+    <Content Include="SetLocation.aspx" />
+    <Content Include="SiteCamerasSetup.aspx" />
+    <Content Include="SiteIPDDevices.aspx" />
+    <Content Include="SiteOtherDevices.aspx" />
+    <Content Include="SiteSensors.aspx" />
+    <Content Include="SiteSNPDevices.aspx" />
+    <Content Include="SiteUsers.aspx" />
+    <Content Include="SQLReportsConfig.aspx" />
+    <Content Include="SystemLog.aspx" />
+    <Content Include="UserEditDashboard.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddPhoneNumber.aspx.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.designer.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.designer.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.designer.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.designer.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveDirectoryUnits.aspx.cs">
+      <DependentUpon>ActiveDirectoryUnits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActiveDirectoryUnits.aspx.designer.cs">
+      <DependentUpon>ActiveDirectoryUnits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAlert.aspx.cs">
+      <DependentUpon>AddAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAlert.aspx.designer.cs">
+      <DependentUpon>AddAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAlertThreshHolds.aspx.cs">
+      <DependentUpon>AddAlertThreshHolds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAlertThreshHolds.aspx.designer.cs">
+      <DependentUpon>AddAlertThreshHolds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddIPDevice.aspx.cs">
+      <DependentUpon>AddIPDevice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddIPDevice.aspx.designer.cs">
+      <DependentUpon>AddIPDevice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddOtherDevices.aspx.cs">
+      <DependentUpon>AddOtherDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddOtherDevices.aspx.designer.cs">
+      <DependentUpon>AddOtherDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddOtherDeviceTemplate.aspx.cs">
+      <DependentUpon>AddOtherDeviceTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddOtherDeviceTemplate.aspx.designer.cs">
+      <DependentUpon>AddOtherDeviceTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addPeople.aspx.cs">
+      <DependentUpon>addPeople.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addPeople.aspx.designer.cs">
+      <DependentUpon>addPeople.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddUsers.aspx.cs">
+      <DependentUpon>AddUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddUsers.aspx.designer.cs">
+      <DependentUpon>AddUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlertContact.aspx.cs">
+      <DependentUpon>AlertContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlertContact.aspx.designer.cs">
+      <DependentUpon>AlertContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlertHistory.aspx.cs">
+      <DependentUpon>AlertHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlertHistory.aspx.designer.cs">
+      <DependentUpon>AlertHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="BackupData.aspx.cs">
+      <DependentUpon>BackupData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackupData.aspx.designer.cs">
+      <DependentUpon>BackupData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BulkOtherDevice.aspx.cs">
+      <DependentUpon>BulkOtherDevice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulkOtherDevice.aspx.designer.cs">
+      <DependentUpon>BulkOtherDevice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInfo.aspx.cs">
+      <DependentUpon>ClientInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientInfo.aspx.designer.cs">
+      <DependentUpon>ClientInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomGraphs.aspx.cs">
+      <DependentUpon>CustomGraphs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomGraphs.aspx.designer.cs">
+      <DependentUpon>CustomGraphs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonColumn.ascx.cs">
+      <DependentUpon>liveMonColumn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonColumn.ascx.designer.cs">
+      <DependentUpon>liveMonColumn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonGauge.ascx.cs">
+      <DependentUpon>liveMonGauge.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonGauge.ascx.designer.cs">
+      <DependentUpon>liveMonGauge.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonLine.ascx.cs">
+      <DependentUpon>liveMonLine.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonLine.ascx.designer.cs">
+      <DependentUpon>liveMonLine.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonOnOff.ascx.cs">
+      <DependentUpon>liveMonOnOff.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonOnOff.ascx.designer.cs">
+      <DependentUpon>liveMonOnOff.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonOnOffReal.ascx.cs">
+      <DependentUpon>liveMonOnOffReal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonOnOffReal.ascx.designer.cs">
+      <DependentUpon>liveMonOnOffReal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\liveMonPIE.ascx.cs">
+      <DependentUpon>liveMonPIE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\liveMonPIE.ascx.designer.cs">
+      <DependentUpon>liveMonPIE.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultIcons.aspx.cs">
+      <DependentUpon>DefaultIcons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultIcons.aspx.designer.cs">
+      <DependentUpon>DefaultIcons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceInfo.aspx.cs">
+      <DependentUpon>DeviceInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeviceInfo.aspx.designer.cs">
+      <DependentUpon>DeviceInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditAlerts.aspx.cs">
+      <DependentUpon>EditAlerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAlerts.aspx.designer.cs">
+      <DependentUpon>EditAlerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditAlertTemplate.aspx.cs">
+      <DependentUpon>EditAlertTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAlertTemplate.aspx.designer.cs">
+      <DependentUpon>EditAlertTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSensor.aspx.cs">
+      <DependentUpon>EditSensor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSensor.aspx.designer.cs">
+      <DependentUpon>EditSensor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportData.aspx.cs">
+      <DependentUpon>ExportData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportData.aspx.designer.cs">
+      <DependentUpon>ExportData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs.aspx.cs">
+      <DependentUpon>Graphs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Graphs.aspx.designer.cs">
+      <DependentUpon>Graphs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportIPDevices.aspx.cs">
+      <DependentUpon>ImportIPDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportIPDevices.aspx.designer.cs">
+      <DependentUpon>ImportIPDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportOtherDevices.aspx.cs">
+      <DependentUpon>ImportOtherDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportOtherDevices.aspx.designer.cs">
+      <DependentUpon>ImportOtherDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IPBulkDevices.aspx.cs">
+      <DependentUpon>IPBulkDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IPBulkDevices.aspx.designer.cs">
+      <DependentUpon>IPBulkDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IPDevices\IPDevice.aspx.cs">
+      <DependentUpon>IPDevice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IPDevices\IPDevice.aspx.designer.cs">
+      <DependentUpon>IPDevice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IPDeviceTemplate.aspx.cs">
+      <DependentUpon>IPDeviceTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IPDeviceTemplate.aspx.designer.cs">
+      <DependentUpon>IPDeviceTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IPMnLinq.designer.cs" />
+    <Compile Include="IPMnLinq1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPMnLinq.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="LinkAlertcontact.aspx.cs">
+      <DependentUpon>LinkAlertcontact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LinkAlertcontact.aspx.designer.cs">
+      <DependentUpon>LinkAlertcontact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MeteringEventLog.aspx.cs">
+      <DependentUpon>MeteringEventLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MeteringEventLog.aspx.designer.cs">
+      <DependentUpon>MeteringEventLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MeteringRescanProfile.aspx.cs">
+      <DependentUpon>MeteringRescanProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MeteringRescanProfile.aspx.designer.cs">
+      <DependentUpon>MeteringRescanProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="mysealed.cs" />
+    <Compile Include="NewDashboardSetting.aspx.cs">
+      <DependentUpon>NewDashboardSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewDashboardSetting.aspx.designer.cs">
+      <DependentUpon>NewDashboardSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewVideo.aspx.cs">
+      <DependentUpon>NewVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewVideo.aspx.designer.cs">
+      <DependentUpon>NewVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSecuritySetup.aspx.cs">
+      <DependentUpon>PageSecuritySetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSecuritySetup.aspx.designer.cs">
+      <DependentUpon>PageSecuritySetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSites.aspx.cs">
+      <DependentUpon>PageSites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSites.aspx.designer.cs">
+      <DependentUpon>PageSites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsConfig.aspx.cs">
+      <DependentUpon>ReportsConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportsConfig.aspx.designer.cs">
+      <DependentUpon>ReportsConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SensorDetails.aspx.cs">
+      <DependentUpon>SensorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SensorDetails.aspx.designer.cs">
+      <DependentUpon>SensorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SensorStatus.aspx.cs">
+      <DependentUpon>SensorStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SensorStatus.aspx.designer.cs">
+      <DependentUpon>SensorStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensor_readings_by_status.aspx.cs">
+      <DependentUpon>Sensor_readings_by_status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sensor_readings_by_status.aspx.designer.cs">
+      <DependentUpon>Sensor_readings_by_status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerConfiguration.aspx.cs">
+      <DependentUpon>ServerConfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerConfiguration.aspx.designer.cs">
+      <DependentUpon>ServerConfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\WebServiceColumnChart.asmx.cs">
+      <DependentUpon>WebServiceColumnChart.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\WebServicePieChart.asmx.cs">
+      <DependentUpon>WebServicePieChart.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SetLocation.aspx.cs">
+      <DependentUpon>SetLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetLocation.aspx.designer.cs">
+      <DependentUpon>SetLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteCamerasSetup.aspx.cs">
+      <DependentUpon>SiteCamerasSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteCamerasSetup.aspx.designer.cs">
+      <DependentUpon>SiteCamerasSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteIPDDevices.aspx.cs">
+      <DependentUpon>SiteIPDDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteIPDDevices.aspx.designer.cs">
+      <DependentUpon>SiteIPDDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteOtherDevices.aspx.cs">
+      <DependentUpon>SiteOtherDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteOtherDevices.aspx.designer.cs">
+      <DependentUpon>SiteOtherDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSensors.aspx.cs">
+      <DependentUpon>SiteSensors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSensors.aspx.designer.cs">
+      <DependentUpon>SiteSensors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSNPDevices.aspx.cs">
+      <DependentUpon>SiteSNPDevices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSNPDevices.aspx.designer.cs">
+      <DependentUpon>SiteSNPDevices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteUsers.aspx.cs">
+      <DependentUpon>SiteUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteUsers.aspx.designer.cs">
+      <DependentUpon>SiteUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLReportsConfig.aspx.cs">
+      <DependentUpon>SQLReportsConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SQLReportsConfig.aspx.designer.cs">
+      <DependentUpon>SQLReportsConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="SystemLog.aspx.cs">
+      <DependentUpon>SystemLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemLog.aspx.designer.cs">
+      <DependentUpon>SystemLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserEditDashboard.aspx.cs">
+      <DependentUpon>UserEditDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserEditDashboard.aspx.designer.cs">
+      <DependentUpon>UserEditDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="ApplicationInsights.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="images\Sorting icons.psd" />
+    <Content Include="IPMnLinq.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>IPMnLinq1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Site.Master" />
+    <Content Include="Site.Mobile.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IPMnLinq.dbml.layout">
+      <DependentUpon>IPMnLinq.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+    <Folder Include="css\calendar\" />
+    <Folder Include="css\colorpicker\" />
+    <Folder Include="css\datatables\" />
+    <Folder Include="css\editor\" />
+    <Folder Include="css\icheck\" />
+    <Folder Include="css\maps\" />
+    <Folder Include="css\progressbar\" />
+    <Folder Include="css\scripts\" />
+    <Folder Include="css\select\" />
+    <Folder Include="css\switchery\" />
+    <Folder Include="fonts\css\" />
+    <Folder Include="fonts\fonts\" />
+    <Folder Include="fonts\less\" />
+    <Folder Include="fonts\scss\" />
+    <Folder Include="images\bootstrap-colorpicker\" />
+    <Folder Include="js\autocomplete\" />
+    <Folder Include="js\calendar\" />
+    <Folder Include="js\chartjs\" />
+    <Folder Include="js\colorpicker\" />
+    <Folder Include="js\cropping\" />
+    <Folder Include="js\datatables\" />
+    <Folder Include="js\datepicker\" />
+    <Folder Include="js\dropzone\" />
+    <Folder Include="js\easypie\" />
+    <Folder Include="js\echart\" />
+    <Folder Include="js\editor\" />
+    <Folder Include="js\flot\" />
+    <Folder Include="js\gauge\" />
+    <Folder Include="js\icheck\" />
+    <Folder Include="js\input_mask\" />
+    <Folder Include="js\ion_range\" />
+    <Folder Include="js\knob\" />
+    <Folder Include="js\maps\" />
+    <Folder Include="js\moment\" />
+    <Folder Include="js\moris\" />
+    <Folder Include="js\nicescroll\" />
+    <Folder Include="js\notify\" />
+    <Folder Include="js\pace\" />
+    <Folder Include="js\parsley\" />
+    <Folder Include="js\progressbar\" />
+    <Folder Include="js\select\" />
+    <Folder Include="js\sidebar\" />
+    <Folder Include="js\skycons\" />
+    <Folder Include="js\sparkline\" />
+    <Folder Include="js\switchery\" />
+    <Folder Include="js\tags\" />
+    <Folder Include="js\textarea\" />
+    <Folder Include="js\validator\" />
+    <Folder Include="js\wizard\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51758</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51758/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

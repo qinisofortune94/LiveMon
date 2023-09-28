@@ -1,0 +1,24 @@
+﻿<controls:ChildWindow x:Class="SLServerDisplay.ChildUploadMedia"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="571" Height="410"
+           Title="Upload Media">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="CancelButton" Content="Cancel" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
+        <Button x:Name="OKButton" Content="OK" Width="75" Height="23" HorizontalAlignment="Right"  Margin="0,12,79,0" Grid.Row="1" />
+        <ListBox Height="150" HorizontalAlignment="Left" Margin="41,27,0,0" Name="lstMediaFiles" VerticalAlignment="Top" Width="274" />
+        <MediaElement Height="150" HorizontalAlignment="Left" Margin="366,27,0,0" Name="MediaShow" VerticalAlignment="Top" Width="170" />
+        <Button Content="Delete" Height="34" HorizontalAlignment="Left" Margin="224,190,0,0" Name="btnDeleteMedia" VerticalAlignment="Top" Width="94" />
+        <TextBlock Height="21" HorizontalAlignment="Left" Margin="38,6,0,0" Name="TextBlock1" Text="Exsisting Media" VerticalAlignment="Top" Width="117" />
+        <TextBlock Height="21" HorizontalAlignment="Left" Margin="41,225,0,0" Name="TextBlock2" Text="File to Upload" VerticalAlignment="Top" Width="117" />
+        <TextBox Height="31" HorizontalAlignment="Left" Margin="42,254,0,0" Name="txtMediaFile" VerticalAlignment="Top" Width="452" />
+        <Button Content="..." Height="31" HorizontalAlignment="Left" Margin="491,254,0,0" Name="btnOpenFileDLg" VerticalAlignment="Top" Width="46" />
+        <Button Content="Upload" Height="30" HorizontalAlignment="Left" Margin="334,290,0,0" Name="btnUpload" VerticalAlignment="Top" Width="140" />
+    </Grid>
+</controls:ChildWindow>

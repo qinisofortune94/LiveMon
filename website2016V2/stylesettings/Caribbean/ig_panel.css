@@ -1,0 +1,50 @@
+.igpnl_CaribbeanControl
+{
+	border:solid 1px #001060;
+}
+
+
+.igpnl_CaribbeanPanel
+{
+	background-position:bottom ;
+	background-image: url(images/panel_body.gif);
+	cursor:default;
+}
+
+
+.igpnl_CaribbeanHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_CaribbeanHeaderCollapsed
+{
+}
+
+
+.igpnl_CaribbeanHeaderHover
+{
+	background-image: url(images/header_gridhover.gif);
+	color:#002F8D;
+}
+
+
+.igpnl_CaribbeanGroupBoxControl
+{
+	background-image: url(images/webgroupbox.gif);
+	border:solid 1px #001060;
+	cursor:default;
+}
+
+

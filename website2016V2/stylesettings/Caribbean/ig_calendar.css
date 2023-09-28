@@ -1,0 +1,99 @@
+.igcal_CaribbeanControl
+{
+	border:solid 1px #001060;
+}
+
+
+.igcal_CaribbeanCalendar
+{
+}
+
+
+.igcal_CaribbeanDOW
+{
+	font-weight:bold;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_CaribbeanDay
+{
+	background-color:White;
+	font-size:11px;
+	border-width:0px;
+	margin-top:3px;
+	padding:2px 6px 3px 3px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcal_CaribbeanNextPrev
+{
+	background-color:#A7D5E7;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+
+.igcal_CaribbeanFooter
+{
+	background-color:#F0F0F0;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.igcal_CaribbeanHeader
+{
+	background-color:#A7D5E7;
+	font-weight:bold;
+	font-size:small;
+	height: 16px;
+	color:#052684;
+}
+
+
+.igcal_CaribbeanDropDown
+{
+}
+
+
+.igcal_CaribbeanWeekendDay
+{
+}
+
+
+.igcal_CaribbeanOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_CaribbeanWeekendDayMajor
+{
+}
+
+
+.igcal_CaribbeanTodayDay
+{
+	background-repeat:no-repeat;
+	background-image: url(images/button_day.gif);
+	color:White;
+}
+
+
+.igcal_CaribbeanSelectedDay
+{
+	background-repeat:no-repeat;
+	background-image: url(images/button_day_active.gif);
+	border-width:1px;
+	border-color:#216CA3;
+	color:White;
+}
+
+

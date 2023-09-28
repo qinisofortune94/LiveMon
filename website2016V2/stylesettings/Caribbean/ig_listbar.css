@@ -1,0 +1,187 @@
+.iglb_CaribbeanControl
+{
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border:solid 1px #001060;
+	margin-bottom:0px;
+}
+
+
+.iglb_CaribbeanControl_Exp
+{
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border:solid 1px #001060;
+	margin-bottom:0px;
+}
+
+
+.iglb_CaribbeanButton
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_CaribbeanButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header_gridhover.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:#002060;
+}
+
+
+.iglb_CaribbeanButtonSelected
+{
+	background-position:center ;
+	background-image: url(images/header_gridhover.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:#002060;
+}
+
+
+.iglb_CaribbeanHeaderCollapsed
+{
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_CaribbeanHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header_gridhover.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:#002060;
+}
+
+
+.iglb_CaribbeanHeaderHover
+{
+	background-position:center ;
+	background-image: url(images/header_dark.gif);
+	font-size:small;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_CaribbeanGroup
+{
+	cursor:default;
+}
+
+
+.iglb_CaribbeanGroup_Exp
+{
+	margin-bottom:0px;
+	cursor:default;
+}
+
+
+.iglb_CaribbeanItem
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_CaribbeanItem_Exp
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_CaribbeanItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#0045D1;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_CaribbeanItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#0045D1;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_CaribbeanItemSelected
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#0045D1;
+	text-align:left;
+}
+
+
+.iglb_CaribbeanItemSelected_Exp
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#0045D1;
+	text-align:left;
+}
+
+

@@ -1,0 +1,41 @@
+.igdc_Office2007BlackEditWithButtons
+{
+	background-color:White;
+	font-weight:bold;
+	font-family: Verdana;
+	border:solid 1px #808080;
+}
+
+
+.igdc_Office2007BlackCalendar
+{
+}
+
+
+.igdc_Office2007BlackEditInContainer
+{
+	background-color:White;
+	border-style:none;
+	border-width:0px;
+	padding-left:3px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+
+.igdc_Office2007BlackButton
+{
+	background-color:White;
+	font-size:1px;
+	border:solid 0px Red;
+}
+
+
+.igdc_Office2007BlackButtonHover
+{
+	background-color:White;
+	border:solid 0px Blue;
+}
+
+

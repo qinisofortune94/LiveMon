@@ -1,0 +1,63 @@
+.igtr_ElectricBlueControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_ElectricBlueIsland
+{
+}
+
+
+.igtr_ElectricBlueNode
+{
+	color:#052684;
+}
+
+
+.igtr_ElectricBlueParent
+{
+}
+
+
+.igtr_ElectricBlueLeaf
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:Black;
+}
+
+
+.igtr_ElectricBlueEdit
+{
+}
+
+
+.igtr_ElectricBlueRoot
+{
+	font-weight:bold;
+}
+
+
+.igtr_ElectricBlueHover
+{
+	cursor:hand;
+	color:#052684;
+	text-decoration:underline;
+}
+
+
+.igtr_ElectricBlueSelected
+{
+	font-weight:bold;
+	color:#052684;
+}
+
+
+.igtr_ElectricBlueDisabled
+{
+	color:#E1E1E1;
+}
+
+

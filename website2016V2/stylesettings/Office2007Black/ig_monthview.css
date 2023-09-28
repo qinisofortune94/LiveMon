@@ -1,0 +1,251 @@
+.igmv_Office2007BlackControl
+{
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Silver;
+	overflow: auto;
+	position: relative;
+}
+
+
+.igmv_Office2007BlackCaptionHeader
+{
+	background-color:#D9DDE0;
+	background-repeat:repeat-x;
+	background-image: url(images/black_header.jpg);
+	font-size:medium;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	height: 25px;
+	line-height: 16px;
+	height: 6%;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igmv_Office2007BlackDayHeader
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header1.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #B0B6BE;
+	padding:0px 2px 0px 0px;
+	height: 15px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlackDay
+{
+	background-color:White;
+	border-top:solid 1px #9199A4;
+	border-left:solid 1px #9199A4;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmv_Office2007BlackAppointment
+{
+	background-color:DarkGray;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_Office2007BlackAllDayEvent
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #000000;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_Office2007BlackNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	top: 2px;
+	width: 25px;
+	cursor:hand;
+}
+
+
+.igmv_Office2007BlackWeekNumber
+{
+	background-color:#C7CBD1;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 0px #666666;
+	border-top-width:0px;
+	border-top-style:outset;
+	border-bottom-width:0px;
+	border-bottom-style:outset;
+	width: 20px;
+	text-align:center;
+}
+
+
+.igmv_Office2007BlackCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+tr.igmv_Office2007BlackCaptionHeader td.igmv_Office2007BlackWeekNumber
+{
+	background-color:#DBDEE1;
+	background-repeat:repeat-x;
+	background-image: url(images/black_header.jpg);
+	border-width:0px;
+	line-height: 19px;
+}
+
+
+.igmv_Office2007BlackMonthDayOfWeekHeader
+{
+	background-color:#C7CBD1;
+	background-image:none;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:1px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#ACA899;
+	border-left-width:0px;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding:3px 2px 1px 0px;
+	height: 20px;
+	cursor:default;
+	color:#5A5A5A;
+	text-align:center;
+}
+
+
+.igmv_Office2007BlackOtherMonthDayHeader
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header1.gif);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #B0B6BE;
+	padding:0px 2px 0px 0px;
+	height: 15px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlackOtherMonthDay
+{
+	background-color:#C7CBD1;
+	border-top:solid 1px #9199A4;
+	border-left:solid 1px #9199A4;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmv_Office2007BlackOtherCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_Office2007BlackTodayHeader
+{
+	background-color:#FFFFD5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/day_header_active.jpg);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom:solid 0px #6693C0;
+	margin-top:0px;
+	padding:0px 2px 0px 0px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlackToday
+{
+	background-color:White;
+	border:solid 1px #EE9311;
+}
+
+
+.igmv_Office2007BlackSelectedAppointment
+{
+	background-color:#316AC5;
+	color:White;
+}
+
+
+.igmv_Office2007BlackActiveDayHeader
+{
+	background-repeat:repeat-x;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px 2px 0px 0px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlackActiveDay
+{
+	background-color:#E8EAEC;
+}
+
+
+.igmv_NavigationButtonPrev
+{
+	left: 3px;
+}
+
+
+.igmv_NavigationButtonNext
+{
+	right: 3px;
+}
+
+
+.igmv_Office2007BlackControl table
+{
+	border-collapse:Collapse;
+}
+
+

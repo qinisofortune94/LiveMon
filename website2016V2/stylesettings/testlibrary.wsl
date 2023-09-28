@@ -1,0 +1,174 @@
+<Library Name="testlibrary">
+  <StyleSets>
+    <StyleSet>
+      <Name>Appletini</Name>
+      <DisplayName>Appletini</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>BlueGel</Name>
+      <DisplayName>BlueGel</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Caribbean</Name>
+      <DisplayName>Caribbean</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Claymation</Name>
+      <DisplayName>Claymation</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Default</Name>
+      <DisplayName>Default</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>ElectricBlue</Name>
+      <DisplayName>ElectricBlue</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>GreenGel</Name>
+      <DisplayName>GreenGel</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Harvest</Name>
+      <DisplayName>Harvest</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Office2007Black</Name>
+      <DisplayName>Office2007Black</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Office2007Blue</Name>
+      <DisplayName>Office2007Blue</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Office2007Silver</Name>
+      <DisplayName>Office2007Silver</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Peach</Name>
+      <DisplayName>Peach</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Pear</Name>
+      <DisplayName>Pear</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>RadioFlyer</Name>
+      <DisplayName>RadioFlyer</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>RubberBlack</Name>
+      <DisplayName>RubberBlack</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>SpringGreen</Name>
+      <DisplayName>SpringGreen</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+    <StyleSet>
+      <Name>Trendy</Name>
+      <DisplayName>Trendy</DisplayName>
+      <Description>
+      </Description>
+      <Version>2007.1</Version>
+      <Author>Infragistics, Inc.</Author>
+      <Copyright>Copyright(c) 2007 Infragistics, Inc. </Copyright>
+      <Company>Infragistics, Inc.</Company>
+    </StyleSet>
+  </StyleSets>
+</Library>

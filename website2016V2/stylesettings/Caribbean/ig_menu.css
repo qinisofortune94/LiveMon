@@ -1,0 +1,97 @@
+.igmn_CaribbeanControl
+{
+	background-color:WhiteSmoke;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border-color:Gainsboro;
+}
+
+
+.igmn_CaribbeanIsland
+{
+	background-color:WhiteSmoke;
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	border:solid 1px Silver;
+}
+
+
+.igmn_CaribbeanItem
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	height: 20px;
+	cursor:hand;
+}
+
+
+.igmn_CaribbeanLeaf
+{
+}
+
+
+.igmn_CaribbeanParent
+{
+}
+
+
+.igmn_CaribbeanTopLevelLeaf
+{
+}
+
+
+.igmn_CaribbeanTopLevelParent
+{
+}
+
+
+.igmn_CaribbeanHeader
+{
+}
+
+
+.igmn_CaribbeanSeparator
+{
+	background-color:Yellow;
+	color:Black;
+}
+
+
+.igmn_CaribbeanHover
+{
+	background-color:Transparent;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	border:solid 1px #C3C3C3;
+	padding:0px;
+	height: 20px;
+	color:White;
+}
+
+
+.igmn_CaribbeanTopLevelHover
+{
+	background-color:Transparent;
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	border:solid 1px #C3C3C3;
+	padding:0px;
+	height: 20px;
+	color:White;
+}
+
+
+.igmn_CaribbeanTopSelected
+{
+}
+
+
+.igmn_CaribbeanDisabled
+{
+	font-size:x-small;
+	font-family: Verdana;
+	color: LightGrey;
+}
+
+

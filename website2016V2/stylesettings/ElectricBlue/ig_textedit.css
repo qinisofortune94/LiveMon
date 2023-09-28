@@ -1,0 +1,59 @@
+.igtxt_ElectricBlueEditWithButtons
+{
+	background-color:#F0F0F0;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	font-family: Verdana;
+	border:solid 1px #0052A4;
+}
+
+
+.igtxt_ElectricBlueEdit
+{
+	background-color:#F0F0F0;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+	font-family: Verdana;
+	border:solid 1px #0052A4;
+}
+
+
+.igtxt_ElectricBlueEditInContainer
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+.igtxt_ElectricBlueButton
+{
+	background-color:#C1D8E6;
+	font-size:1px;
+	border:solid 1px #EAF2FB;
+}
+
+
+.igtxt_ElectricBlueButtonHover
+{
+	background-color:#B4B4B4;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_ElectricBlueButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_ElectricBlueButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

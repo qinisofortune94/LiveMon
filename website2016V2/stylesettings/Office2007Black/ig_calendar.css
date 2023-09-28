@@ -1,0 +1,87 @@
+.igcal_Office2007BlackControl
+{
+	border-style:solid;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcal_Office2007BlackCalendar
+{
+}
+
+
+.igcal_Office2007BlackDOW
+{
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #9199A4;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_Office2007BlackDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_Office2007BlackNextPrev
+{
+	background-color:#D2D5DA;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+
+.igcal_Office2007BlackFooter
+{
+	border-top:solid 1px LightGrey;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.igcal_Office2007BlackHeader
+{
+	background-color:#D2D5DA;
+	font-size:10px;
+	height: 16px;
+}
+
+
+.igcal_Office2007BlackDropDown
+{
+}
+
+
+.igcal_Office2007BlackWeekendDay
+{
+}
+
+
+.igcal_Office2007BlackOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_Office2007BlackWeekendDayMajor
+{
+}
+
+
+.igcal_Office2007BlackTodayDay
+{
+	font-weight:bold;
+	border:solid 1px #BB5503;
+}
+
+
+.igcal_Office2007BlackSelectedDay
+{
+	background-color:#FBC84F;
+}
+
+

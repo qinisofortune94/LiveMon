@@ -1,0 +1,83 @@
+.igcal_Office2007BlueControl
+{
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcal_Office2007BlueCalendar
+{
+}
+
+
+.igcal_Office2007BlueDOW
+{
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #9AC6FF;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_Office2007BlueDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_Office2007BlueNextPrev
+{
+	background-color:#BFDBFF;
+}
+
+
+.igcal_Office2007BlueFooter
+{
+	border-top:solid 1px Gainsboro;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.igcal_Office2007BlueHeader
+{
+	background-color:#BFDBFF;
+	font-size:10px;
+	height: 16px;
+}
+
+
+.igcal_Office2007BlueDropDown
+{
+}
+
+
+.igcal_Office2007BlueWeekendDay
+{
+}
+
+
+.igcal_Office2007BlueOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_Office2007BlueWeekendDayMajor
+{
+}
+
+
+.igcal_Office2007BlueTodayDay
+{
+	border:solid 1px #BB5503;
+}
+
+
+.igcal_Office2007BlueSelectedDay
+{
+	background-color:#FBC84F;
+}
+
+

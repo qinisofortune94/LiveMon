@@ -1,0 +1,190 @@
+.iglb_ElectricBlueControl
+{
+	font-size:medium;
+	border:solid 1px #052684;
+	margin-bottom:0px;
+	cursor:default;
+}
+
+
+.iglb_ElectricBlueControl_Exp
+{
+	font-size:medium;
+	border:solid 1px #052684;
+	cursor:default;
+}
+
+
+.iglb_ElectricBlueButton
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:small;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_ElectricBlueButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:small;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_ElectricBlueButtonSelected
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:small;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_ElectricBlueHeaderCollapsed
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:small;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:#F0F0F0;
+}
+
+
+.iglb_ElectricBlueHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:small;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:White;
+}
+
+
+.iglb_ElectricBlueHeaderHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:small;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_ElectricBlueGroup
+{
+	background-color:#96FF2D;
+	background-repeat:repeat-x;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+}
+
+
+.iglb_ElectricBlueGroup_Exp
+{
+	background-repeat:repeat-x;
+	background-position:right top ;
+	background-image: url(images/bg_top.gif);
+}
+
+
+.iglb_ElectricBlueItem
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_ElectricBlueItem_Exp
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_ElectricBlueItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#1C4B82;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_ElectricBlueItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#1C4B82;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_ElectricBlueItemSelected
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#1C4B82;
+	text-align:left;
+}
+
+
+.iglb_ElectricBlueItemSelected_Exp
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#1C4B82;
+	text-align:left;
+}
+
+

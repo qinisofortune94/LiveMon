@@ -1,0 +1,124 @@
+.igcmb_Office2007BlueControl
+{
+	background-color:Black;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igcmb_Office2007BlueEditWithButtons
+{
+	border:solid 1px #ABC1DE;
+	cursor:hand;
+}
+
+
+.igcmb_Office2007BluePagerArea
+{
+}
+
+
+.igcmb_Office2007BluePageCurrent
+{
+}
+
+
+.igcmb_Office2007BluePageLink
+{
+}
+
+
+.igcmb_Office2007BlueItem
+{
+	border:solid 1px Transparent;
+	border-right-color:#D0D7E5;
+	border-bottom-color:#D0D7E5;
+}
+
+
+.igcmb_Office2007BlueAlt
+{
+}
+
+
+.igcmb_Office2007BlueHeader
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/office_grid_header.jpg);
+	border-width:0px;
+	border-color:Transparent;
+	border-right-width:1px;
+	border-right-color:#F29536;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.igcmb_Office2007BlueFooter
+{
+}
+
+
+.igcmb_Office2007BlueLabel
+{
+	background-color:#E4ECF7;
+	background-image:none;
+	border-right-width:1px;
+	border-right-color:#D0D7E5;
+	border-bottom-width:1px;
+	border-bottom-color:#D0D7E5;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+.igcmb_Office2007BlueSelected
+{
+	background-color:#EAECF5;
+	border:solid 1px #EAECF5;
+}
+
+
+.igcmb_Office2007BlueEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_Office2007BlueActiveBorderTopBottom
+{
+	border-top-width:1px;
+	border-top-color:#1E1E1E;
+	border-bottom-width:1px;
+	border-bottom-color:#1E1E1E;
+}
+
+
+.igcmb_Office2007BlueActiveBorderLeft
+{
+	border-left:solid 1px #1E1E1E;
+}
+
+
+.igcmb_Office2007BlueActiveBorderRight
+{
+	border-right:solid 1px #1E1E1E;
+}
+
+
+.igcmb_Office2007BlueFilterDropDown
+{
+}
+
+
+.igcmb_Office2007BlueFilterOperandDropDown
+{
+}
+
+

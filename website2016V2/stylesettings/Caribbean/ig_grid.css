@@ -1,0 +1,230 @@
+.igtbl_CaribbeanControl
+{
+	background-color:WhiteSmoke;
+	border:solid 1px #001060;
+	cursor:default;
+}
+
+
+.igtbl_CaribbeanPagerArea
+{
+	background-color:#E0F3FB;
+	background-image: url(images/item_alt.gif);
+	border-width:0px;
+	border-top:solid 3px #BABA00;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_CaribbeanPageCurrent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/submit_down.gif);
+	font-weight:bold;
+	margin-right:15px;
+	padding:2px 6px 5px 6px;
+	width: 20px;
+	color:White;
+}
+
+
+.igtbl_CaribbeanPageLink
+{
+	font-weight:bold;
+	margin-right:15px;
+	color:DarkBlue;
+}
+
+
+.igtbl_CaribbeanGroupByBox
+{
+	background-color:#FF732D;
+	background-image: url(images/groupby.gif);
+	border-bottom:solid 1px #FFFFFF;
+	height: 20px;
+}
+
+
+.igtbl_CaribbeanAddNewBox
+{
+	background-position:bottom ;
+	background-image: url(images/add_new.gif);
+	cursor:hand;
+}
+
+
+.igtbl_CaribbeanItem
+{
+	background-position:bottom ;
+	background-image: url(images/item_bg.gif);
+	border-top:solid 1px Gainsboro;
+	border-bottom:solid 1px Transparent;
+	height: 30px;
+}
+
+
+.igtbl_CaribbeanFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_disabled.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+}
+
+
+.igtbl_CaribbeanAlt
+{
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	border-bottom:solid 1px Transparent;
+}
+
+
+.igtbl_CaribbeanEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_CaribbeanButton
+{
+}
+
+
+.igtbl_CaribbeanFxdCell
+{
+}
+
+
+.igtbl_CaribbeanHeader
+{
+	background-position:center ;
+	background-image: url(images/header_grid.gif);
+	border-width:0px;
+	height: 40px;
+	color:White;
+	text-align:left;
+}
+
+
+.igtbl_CaribbeanFooter
+{
+	background-color:#F3F8FB;
+	background-position:center ;
+	background-image:none;
+	height: 10px;
+}
+
+
+.igtbl_CaribbeanLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border:solid 1px LightGrey;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	height: 30px;
+}
+
+
+.igtbl_CaribbeanExpArea
+{
+	background-color:#F3F8FB;
+	background-image:none;
+	border:solid 0px Transparent;
+	border-top-width:1px;
+	border-top-color:White;
+	border-right-width:1px;
+	border-right-color:#D2D2D2;
+	padding-top:2px;
+	width: 18px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igtbl_CaribbeanGrpItem
+{
+}
+
+
+.igtbl_CaribbeanFxdHeader
+{
+}
+
+
+.igtbl_CaribbeanGroupBandLabel
+{
+}
+
+
+.igtbl_CaribbeanFxdFooter
+{
+}
+
+
+.igtbl_CaribbeanDropDown
+{
+	background-color:#D6EDF6;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px DarkGray;
+}
+
+
+.igtbl_CaribbeanDropDownSel
+{
+}
+
+
+.igtbl_CaribbeanSelected
+{
+	background-color:DimGray;
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	border-top:solid 1px #E1E1E1;
+	color:Black;
+}
+
+
+.igtbl_CaribbeanActiveBorderTopBottom
+{
+	border-top:solid 1px #0068D1;
+	border-bottom:solid 1px #0068D1;
+}
+
+
+.igtbl_CaribbeanActiveBorderLeft
+{
+	border-left:solid 1px #0068D1;
+}
+
+
+.igtbl_CaribbeanActiveBorderRight
+{
+	border-right:solid 1px #0068D1;
+}
+
+
+.igtbl_CaribbeanFilterDropDown
+{
+}
+
+
+.igtbl_CaribbeanFilterOperandDropDown
+{
+}
+
+

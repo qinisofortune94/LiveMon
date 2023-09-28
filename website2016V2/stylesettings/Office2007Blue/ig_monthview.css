@@ -1,0 +1,250 @@
+.igmv_Office2007BlueControl
+{
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Silver;
+	overflow: auto;
+	position: relative;
+}
+
+
+.igmv_Office2007BlueCaptionHeader
+{
+	background-color:#BFDAFF;
+	background-repeat:repeat-x;
+	background-image: url(images/caption_bg.jpg);
+	font-size:medium;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	height: 6%;
+	color:Black;
+	text-align:center;
+}
+
+
+.igmv_Office2007BlueDayHeader
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header.jpg);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #B0B6BE;
+	padding-right:3px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlueDay
+{
+	background-color:White;
+	border-top:solid 1px #5D8CC9;
+	border-left:solid 1px #5D8CC9;
+	height: 10%;
+	overflow-x: hidden;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmv_Office2007BlueAppointment
+{
+	background-color:DarkGray;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_Office2007BlueAllDayEvent
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:xx-small;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #000000;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	line-height: 15px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_Office2007BlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	position: absolute;
+	top: 2px;
+	width: 25px;
+	cursor:hand;
+}
+
+
+.igmv_Office2007BlueWeekNumber
+{
+	background-color:#8DAED9;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:solid 0px #666666;
+	border-top-width:0px;
+	border-top-style:outset;
+	border-bottom-width:0px;
+	border-bottom-style:outset;
+	width: 18px;
+	text-align:center;
+}
+
+
+.igmv_Office2007BlueCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+tr.igmv_Office2007BlueCaptionHeader td.igmv_Office2007BlueWeekNumber
+{
+	background-color:#BFDAFF;
+	background-repeat:repeat-x;
+	background-image: url(images/caption_bg.jpg);
+	border-width:0px;
+	line-height: 19px;
+}
+
+
+.igmv_Office2007BlueMonthDayOfWeekHeader
+{
+	background-color:#8DAED9;
+	background-image:none;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:1px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-bottom-color:#ACA899;
+	border-left-width:0px;
+	margin-top:1px;
+	margin-right:1px;
+	margin-left:1px;
+	padding:3px 2px 1px 0px;
+	height: 30px;
+	cursor:default;
+	color:#315B9B;
+	text-align:center;
+}
+
+
+.igmv_Office2007BlueOtherMonthDayHeader
+{
+	background-color:Transparent;
+	background-repeat:repeat-x;
+	background-image: url(images/day_header.jpg);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1px #B0B6BE;
+	padding-right:3px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlueOtherMonthDay
+{
+	background-color:#A5BFE1;
+	border-top:solid 1px #5D8CC9;
+	border-left:solid 1px #5D8CC9;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmv_Office2007BlueOtherCompressedDay
+{
+	border-left:solid 1px Silver;
+	height: 4%;
+	vertical-align:top;
+}
+
+
+.igmv_Office2007BlueTodayHeader
+{
+	background-color:#FFFFD5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/day_header_active.jpg);
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom:solid 0px #6693C0;
+	margin-top:0px;
+	padding:0px 2px 0px 0px;
+	height: 16px;
+	line-height: 16px;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlueToday
+{
+	background-color:White;
+	border:solid 1px #EE9311;
+}
+
+
+.igmv_Office2007BlueSelectedAppointment
+{
+	background-color:#316AC5;
+	color:White;
+}
+
+
+.igmv_Office2007BlueActiveDayHeader
+{
+	background-repeat:repeat-x;
+	font-size:8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color:Black;
+	text-align:right;
+}
+
+
+.igmv_Office2007BlueActiveDay
+{
+	background-color:#E6EDF7;
+}
+
+
+.igmv_NavigationButtonPrev
+{
+	left: 3px;
+}
+
+
+.igmv_NavigationButtonNext
+{
+	right: 3px;
+}
+
+
+.igmv_Office2007BlueControl table
+{
+	border-collapse:Collapse;
+}
+
+

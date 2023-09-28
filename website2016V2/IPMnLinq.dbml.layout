@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 25.75" name="IPMnLinq">
+  <DataContextMoniker Name="/IPMnLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="34f68b1b-8630-417f-8c59-997dd2406b08" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/IPMnLinqDataContext/AlertContactLink" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb57c101-5fc1-411f-8608-d9ca16d37430" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4507b725-c4a2-48ad-9ed2-493a5f150b99" absoluteBounds="3.75, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/IPMnLinqDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0b917e97-8542-48d6-a214-a9fc1b8d5899" absoluteBounds="3.765, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c885c4e5-a4ac-4afe-8f1a-d2ec2a1b4f49" absoluteBounds="7.125, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/IPMnLinqDataContext/AlertHistoryDB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7599fc5-a044-4f68-bd9f-439a9f1efe50" absoluteBounds="7.14, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="358e0f90-219e-4c1e-a907-a96b12b78454" absoluteBounds="0.5, 4.375, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/IPMnLinqDataContext/AlertContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2250a446-ca4d-4f28-b42b-71f96048645d" absoluteBounds="0.51500000000000012, 4.835, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67e0722d-27bf-46d8-9ee9-b0b25b08e3c5" absoluteBounds="3.75, 4.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/IPMnLinqDataContext/AlertContactSchedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8aa209f4-02de-444c-9d84-b88bd5ca728f" absoluteBounds="3.7649999999999997, 5.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ca17fc6-1c1b-446d-95a1-21fe802bd1fd" absoluteBounds="7, 4.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/IPMnLinqDataContext/Alert" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5537ce5-b1e1-4299-844d-f8b6e13d680a" absoluteBounds="7.015, 4.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4e2d04e-0a50-418a-aeb6-2c4d4b9962c0" absoluteBounds="3.625, 8.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/IPMnLinqDataContext/AlertSchedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44d18661-d379-4236-9382-d1dcdc1d443b" absoluteBounds="3.6399999999999997, 8.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42280ce5-e91c-4025-a514-b0d830985c7d" absoluteBounds="7, 8.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/IPMnLinqDataContext/BiometricUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95632b35-d030-42e5-b725-ffec33c1e2ba" absoluteBounds="7.015, 8.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42db04bc-ddbb-42c0-b94a-c93993ff06ca" absoluteBounds="0.625, 10.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/IPMnLinqDataContext/CameraSensorLink" />
+      <nestedChildShapes>
+        <elementListCompartment Id="335fe629-9917-4e3f-b9d7-7b864a548f15" absoluteBounds="0.64000000000000012, 11.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6c99851-574f-436b-9a0f-7acc9fda2919" absoluteBounds="3.75, 10.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/IPMnLinqDataContext/DataHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e669324d-c7a6-4998-ad87-b82e4f2f6cf0" absoluteBounds="3.765, 11.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc46d415-c485-4938-9a3b-4043baa32de5" absoluteBounds="7.125, 10.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/IPMnLinqDataContext/DisplayGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebd565b0-61a2-4210-8d33-e868389a7bb5" absoluteBounds="7.14, 11.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2d8533f-27c8-4085-9e30-d9d7980c93cc" absoluteBounds="0.625, 14.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/IPMnLinqDataContext/ModelDeviceLocation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7b309ee-64b7-439b-bb51-85a2541afd3d" absoluteBounds="0.64000000000000012, 14.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3af5d566-868d-41d2-8483-d996cfaad35f" absoluteBounds="4.125, 15.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/IPMnLinqDataContext/Model" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1d29404-dc8b-4050-bf6e-667c680c8e10" absoluteBounds="4.14, 15.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77eae3e6-8fa2-401c-990a-3362f4ac4aa9" absoluteBounds="7.125, 15.625, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/IPMnLinqDataContext/OtherDevice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d31d5ba2-a2f9-4946-8527-abda1dbce67a" absoluteBounds="7.14, 16.085, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e0461b4-7322-48ac-9cde-df75c1ce5b87" absoluteBounds="0.875, 18.125, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/IPMnLinqDataContext/Sensorstest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afddcc8a-f38d-49cc-a1c2-675441d8ee1c" absoluteBounds="0.89000000000000012, 18.585, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="851dbba2-eadd-44be-b437-97b225d432c3" absoluteBounds="4.375, 18.875, 2, 6.5784326171875">
+      <DataClassMoniker Name="/IPMnLinqDataContext/Camera" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c45fdae3-0e09-4a3e-910c-65cb5eeb7f3b" absoluteBounds="4.39, 19.335, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e00c761-888d-4aae-a2ad-475ceac653fc" absoluteBounds="8.125, 22.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/IPMnLinqDataContext/DisplayName" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1672ba76-4122-4a2c-8f47-f8dc6bb1cff5" absoluteBounds="8.14, 23.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
